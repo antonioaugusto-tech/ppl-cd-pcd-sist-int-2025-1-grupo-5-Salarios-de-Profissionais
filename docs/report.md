@@ -30,7 +30,7 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ## Introdução
 
-A introdução deve apresentar de dois a quatro parágrafos de contextualização do trabalho. 
+O mercado de dados no Brasil cresce exponencialmente, impulsionado pela transformação digital e a crescente adoção de tecnologias analíticas. No entanto, é notório que o acesso a esse mercado, especialmente para cargos de maior prestígio e remuneração, pode estar associado a fatores socioeconômicos e educacionais. A qualidade da educação básica, medida por indicadores como o IDEB, influencia diretamente as habilidades técnicas e socioemocionais adquiridas, afetando o desempenho acadêmico posterior e, consequentemente, as oportunidades de carreira. Diante desse cenário, este estudo busca investigar se profissionais de estados com melhores indicadores educacionais apresentam trajetórias de carreira mais bem-sucedidas em termos de cargo e salário. 
 
 ###    Contextualização
 
