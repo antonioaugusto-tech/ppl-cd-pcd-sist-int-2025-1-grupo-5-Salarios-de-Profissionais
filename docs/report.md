@@ -67,23 +67,16 @@ os modelos irão se basear para atingir o objetivo.
 
 ####    Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde 
-você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar 
-no seu trabalho.
-
+1. Analisar a Relação entre Educação e Sucesso Profissional: Identificar se há uma correlação significativa entre os indicadores educacionais dos estados e os salários ou cargos ocupados pelos profissionais.
+ 2. Comparar Dados de Diferentes Estados: Coletar e comparar dados de salários e cargos de profissionais formados em estados com diferentes níveis de indicadores educacionais.
+3. Identificar Fatores Contribuintes: Investigar outros fatores que podem influenciar o sucesso profissional, como rede de contatos, experiência prévia e setor de atuação.
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 
 ###    Justificativas
 
-Mostre também as **justificativas** para o  desenvolvimento do seu trabalho e, caso deseje, 
-destaque alguma contribuição do trabalho.
-
-A justific ativa deve descrever a importância ou a motivação para o desenvolvimento do 
-sistema inteligente escolhido. Indique as razões pelas quais você escolheu seus objetivos 
-específicos ou as razões para aprofundar em certos aspectos do software.
-
+A educação é um dos principais determinantes do sucesso profissional. Estados com melhores indicadores educacionais tendem a oferecer uma formação mais robusta, o que pode resultar em profissionais mais capacitados e preparados para o mercado de trabalho. Compreender essa relação pode ajudar a direcionar políticas públicas e investimentos em educação, além de auxiliar indivíduos em suas escolhas acadêmicas e profissionais. Além disso, essa análise pode revelar desigualdades regionais que precisam ser abordadas para promover uma sociedade mais equitativa.
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
@@ -91,14 +84,11 @@ específicos ou as razões para aprofundar em certos aspectos do software.
 
 ##    Público alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. 
-O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários 
-na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos 
-usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+- Estudantes e Recém-Formados: Para que possam tomar decisões informadas sobre onde estudar e quais áreas seguir.
+ - Instituições de Ensino: Para que possam entender a importância de melhorar seus currículos e infraestrutura.
+ - Empregadores e Recrutadores: Para que possam considerar a origem educacional dos candidatos em seus processos de seleção.
+ - Políticos e Formuladores de Políticas Públicas: Para que possam desenvolver estratégias que melhorem a educação em estados com indicadores mais baixos.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, 
-diagramas de personas e mapa de stakeholders.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
