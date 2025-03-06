@@ -6,6 +6,7 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto. Lembrando qu
 
 * Antonio Augusto Vieira Lopes Filho
 * Diego Rodrigo Marinho Silva
+* Rodrigo Ossen Ali Rodrigues
 * Ryan Junio de Oliveira 
 * Vinicius Bigonha Cancela Moraes de Melo Filho 
 
