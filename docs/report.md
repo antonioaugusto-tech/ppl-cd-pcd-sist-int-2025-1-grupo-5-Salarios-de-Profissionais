@@ -1,10 +1,15 @@
 # TITULO DO PROJETO
 
 INTEGRANTES:
+
 Antonio Augusto Vieira Lopes Filho, aavlfilho@sga.pucminas.br
+
 Diego Rodrigo Marinho Silva, diego.marinho@sga.pucminas.br
+
 Rodrigo Ossen Ali Rodrigues, roarodrigues@sga.pucminas.br
+
 Ryan Junio de Oliveira, ryan.junio@sga.pucminas.br
+
 Vinicius Bigonha Cancela Moraes de Melo Filho, vbcmmfilho@sga.pucminas.br  
 
 ---
