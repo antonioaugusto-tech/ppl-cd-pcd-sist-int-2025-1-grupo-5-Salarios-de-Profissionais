@@ -1,19 +1,16 @@
 # TITULO DO PROJETO
 
-
-**Nome completo do Aluno 1, email do aluno 1**
-
-**Nome completo do Aluno 2, email do aluno 2**
-
-**Nome completo do Aluno 3, email do aluno 3**
+Antonio Augusto Vieira Lopes Filho, aavlfilho@sga.pucminas.br
+Diego Rodrigo Marinho Silva, diego.marinho@sga.pucminas.br
+Rodrigo Ossen Ali Rodrigues, roarodrigues@sga.pucminas.br
+Ryan Junio de Oliveira, ryan.junio@sga.pucminas.br
+Vinicius Bigonha Cancela Moraes de Melo Filho, vbcmmfilho@sga.pucminas.br  
 
 ---
 
 Professores:
 
-** Prof. Nome do Prof 1 **
-** Prof. Nome do Prof 2 **
-
+Prof. Hugo Bastos de Paula
 ---
 
 _Curso de Ciência de Dados, Unidade Praça da Liberdade_
@@ -22,8 +19,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Resumo**. Este trabalho busca investigar a relação entre a qualidade da educação básica em diferentes estados brasileiros e as oportunidades profissionais no mercado de dados. Com base em dados da pesquisaState of Data BR 2023 e indicadores educacionais do INEP, o estudo analisará se profissionais formados em estados com melhores índices educacionais (como IDEB e investimento por aluno) alcançam cargos mais altos e apresentam faixas salariais superiores. A pesquisa pretende fornecer insights sobre como desigualdades educacionais podem impactar a trajetória profissional e a distribuição de talentos no setor de dados.
 
 ---
 
