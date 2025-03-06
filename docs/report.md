@@ -79,10 +79,10 @@ A educação é um dos principais determinantes do sucesso profissional. Estados
 
 ##    Público alvo
 
-- Estudantes e Recém-Formados: Para que possam tomar decisões informadas sobre onde estudar e quais áreas seguir.
- - Instituições de Ensino: Para que possam entender a importância de melhorar seus currículos e infraestrutura.
- - Empregadores e Recrutadores: Para que possam considerar a origem educacional dos candidatos em seus processos de seleção.
- - Políticos e Formuladores de Políticas Públicas: Para que possam desenvolver estratégias que melhorem a educação em estados com indicadores mais baixos.
+Estudantes e Recém-Formados: Para que possam tomar decisões informadas sobre onde estudar e quais áreas seguir.
+ Instituições de Ensino: Para que possam entender a importância de melhorar seus currículos e infraestrutura.
+ Empregadores e Recrutadores: Para que possam considerar a origem educacional dos candidatos em seus processos de seleção.
+ Políticos e Formuladores de Políticas Públicas: Para que possam desenvolver estratégias que melhorem a educação em estados com indicadores mais baixos.
 
 
 > **Links Úteis**:
