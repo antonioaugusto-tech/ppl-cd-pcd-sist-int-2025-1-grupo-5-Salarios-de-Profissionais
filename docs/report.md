@@ -25,7 +25,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Este trabalho busca investigar a relação entre a qualidade da educação básica em diferentes estados brasileiros e as oportunidades profissionais no mercado de dados. Com base em dados da pesquisaState of Data BR 2023 e indicadores educacionais do INEP, o estudo analisará se profissionais formados em estados com melhores índices educacionais (como IDEB e investimento por aluno) alcançam cargos mais altos e apresentam faixas salariais superiores. A pesquisa pretende fornecer insights sobre como desigualdades educacionais podem impactar a trajetória profissional e a distribuição de talentos no setor de dados.
+**Resumo**. Este trabalho busca investigar a relação entre a qualidade da educação básica em diferentes estados brasileiros e as oportunidades profissionais no mercado de dados. Com base em dados da pesquisaState of Data BR 2023 e indicadores educacionais do INEP, o estudo analisará se profissionais formados em estados com melhores índices educacionais (como IDEB e investimento por aluno) alcançam cargos mais altos e apresentam faixas salariais superiores. A pesquisa pretende fornecer insights sobre como desigualdades educacionais podem impactar a trajetória profissional e a distribuição de talentos no setor de dados.
 
 ---
 
