@@ -25,14 +25,14 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-**Resumo**. Este trabalho busca investigar a relação entre a qualidade da educação básica em diferentes estados brasileiros e as oportunidades profissionais no mercado de dados. Com base em dados da pesquisaState of Data BR 2023 e indicadores educacionais do INEP, o estudo analisará se profissionais formados em estados com melhores índices educacionais (como IDEB e investimento por aluno) alcançam cargos mais altos e apresentam faixas salariais superiores. A pesquisa pretende fornecer insights sobre como desigualdades educacionais podem impactar a trajetória profissional e a distribuição de talentos no setor de dados.
+**Resumo**. Este projeto propõe o desenvolvimento de um sistema inteligente para analisar como fatores como nível de formação, experiência profissional, porte da empresa, região de residência e domínio de tecnologias específicas influenciam os salários dos profissionais de dados no Brasil. Utilizando técnicas de aprendizado de máquina e análise estatística, o sistema processará dados de diversas fontes para identificar padrões e correlações entre essas variáveis e a remuneração. O objetivo é fornecer insights precisos que auxiliem profissionais e empresas a entenderem melhor os fatores que impactam os salários no setor de dados, contribuindo para decisões estratégicas de carreira e gestão de talentos. 
 
 ---
 
 
 ## Introdução
 
-O mercado de dados no Brasil cresce exponencialmente, impulsionado pela transformação digital e a crescente adoção de tecnologias analíticas. No entanto, é notório que o acesso a esse mercado, especialmente para cargos de maior prestígio e remuneração, pode estar associado a fatores socioeconômicos e educacionais. A qualidade da educação básica, medida por indicadores como o IDEB, influencia diretamente as habilidades técnicas e socioemocionais adquiridas, afetando o desempenho acadêmico posterior e, consequentemente, as oportunidades de carreira. Diante desse cenário, este estudo busca investigar se profissionais de estados com melhores indicadores educacionais apresentam trajetórias de carreira mais bem-sucedidas em termos de cargo e salário. 
+O mercado de dados no Brasil está em constante expansão, e diversos fatores influenciam a remuneração dos profissionais da área. Aspectos como nível de formação, experiência profissional, porte da empresa, localização geográfica e domínio de determinadas tecnologias podem impactar significativamente os salários. Compreender essas variáveis é essencial tanto para profissionais que buscam crescimento na carreira quanto para empresas que desejam atrair e reter talentos. Neste contexto, este projeto propõe o desenvolvimento de um sistema inteligente capaz de analisar e identificar padrões salariais no setor de dados, auxiliando na tomada de decisões estratégicas.
 
 ###    Contextualização
 
