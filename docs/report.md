@@ -86,10 +86,43 @@ A aplicação será utilizada por diferentes perfis de usuários que buscam comp
 
 ###    Dicionário de dados
 
-Apresente uma descrição das bases de dados a serem utilizadas. 
-Dicionários de dados devem conter as bases de dados, os nomes dos atributos 
-com seu significado, seu tipo (inteiro, real, textual, categórico, etc).
+State of Data Brazil 2023
+A base de dados State of Data Brazil 2023 é rica em informações sobre profissionais no setor de dados no Brasil, abordando tanto características demográficas quanto aspectos profissionais e de experiência no mercado de trabalho.
+Localização Geográfica
+1. Estado onde Mora ('P1_i')
+    * Descrição: Estado onde o profissional reside atualmente.
+    * Tipo de Dado: Categórico (nome do estado).
 
+2. UF onde Mora ('P1_i_1')
+    * Descrição: Unidade Federativa (UF) onde o profissional reside atualmete.
+    * Tipo de Dado: Categórico (sigla da UF).
+
+3. Região onde Mora ('P1_i_2')
+    * Descrição: Região geográfica do Brasil onde o profissional reside (Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
+    * Tipo de Dado: Categórico (nome da região).
+
+
+Características Demográficas
+1. Idade ('P1_a')
+    * Descrição: Idade do profissional em anos.
+    * Tipo de Dado: Numérico.
+
+2. Faixa de Idade ('P1_a_1')
+    * Descrição: Faixa etária do profissional (por exemplo, 22-24, 30-34, etc.).
+    * Tipo de Dado: Categórico.
+
+3. Gênero ('P1_b')
+    * Descrição: Gênero do profissional (Masculino, Feminino, etc.).
+    * Tipo de Dado: Categórico.
+
+4. Etnia/Cor/Raça ('P1_c')
+    * Descrição: Etnia, cor ou raça do profissional.
+    * Tipo de Dado: Categórico.
+
+5. Nível de Ensino ('P1_l')
+    * Descrição: Nível de educação do profissional (Ensino Fundamental, Ensino Médio, Ensino Superior, Pós-Graduação).
+    * Tipo de Dado: Categórico.
+      
 Este projeto deve utilizar pelo menos duas fontes de dados. Uma fonte principal e 
 uma fonte para enriquecimentos dos dados principais.
 
