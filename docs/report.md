@@ -93,7 +93,7 @@ A aplicação será utilizada por diferentes perfis de usuários que buscam comp
 
 ###    Dicionário de dados
 
-State of Data Brazil 2023
+**State of Data Brazil 2023**
 A base de dados State of Data Brazil 2023 é rica em informações sobre profissionais no setor de dados no Brasil, abordando tanto características demográficas quanto aspectos profissionais e de experiência no mercado de trabalho.
 Localização Geográfica
 1. Estado onde Mora ('P1_i')
@@ -130,9 +130,58 @@ Características Demográficas
     * Descrição: Nível de educação do profissional (Ensino Fundamental, Ensino Médio, Ensino Superior, Pós-Graduação).
     * Tipo de Dado: Categórico.
       
-Este projeto deve utilizar pelo menos duas fontes de dados. Uma fonte principal e 
-uma fonte para enriquecimentos dos dados principais.
+**PIB Ótica renda UF**
+A base Contas Regionais do Brasil, do IBGE, traz dados sobre o PIB, setores econômicos, participação estadual na economia, PIB per capita e população. 
 
+1. Produto Interno Bruto (PIB)
+
+   * Descrição: Valor monetário total de todos os bens e serviços finais produzidos dentro de uma unidade federativa em um período específico.
+   * Tipo de dado: Numérico (em milhões de reais).
+   * Frequência: Anual.
+
+2. Participação Relativa no PIB Nacional
+
+   * Descrição: Percentual que indica a contribuição de cada unidade federativa no PIB total do país.
+   * Tipo de dado: Numérico (percentual).
+   * Frequência: Anual.
+
+3. PIB per Capita
+
+   * Descrição: Média do PIB por habitante em cada unidade federativa.
+   * Tipo de dado: Numérico (em reais).
+   * Frequência: Anual.
+
+4. Valor Adicionado Bruto (VAB) por Setor
+
+   * Descrição: Contribuição de cada setor econômico ao PIB da unidade federativa.
+   * Subcategorias:
+        Agropecuária: Valor adicionado das atividades agrícolas e pecuárias.
+        Indústria: Valor adicionado das atividades industriais, incluindo transformação, construção e extrativa mineral.
+        Serviços: Valor adicionado das atividades de serviços, como comércio, transporte, comunicações e outros serviços.
+   * Tipo de dado: Numérico (em milhões de reais).
+   * Frequência: Anual.
+
+5. Impostos sobre Produtos Líquidos de Subsídios
+
+   * Descrição: Total de impostos cobrados sobre produtos, subtraídos os subsídios, contribuindo para o cálculo do PIB.
+   * Tipo de dado: Numérico (em milhões de reais).
+   * Frequência: Anual.
+
+6. População Residente
+
+   * Descrição: Número total de habitantes em cada unidade federativa.
+   * Tipo de dado: Numérico (número de pessoas).
+   * Frequência: Anual.
+
+7. Unidade Federativa (UF)
+
+   * Descrição: Nome da unidade federativa do Brasil.
+   * Tipo de dado: Categórico (27 categorias correspondentes às 26 estados e ao Distrito Federal).
+
+8. Região Geográfica
+
+   * Descrição: Região do Brasil à qual a unidade federativa pertence.
+   * Tipo de dado: Categórico (5 categorias: Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
 
 ###    Descrição de dados
 
