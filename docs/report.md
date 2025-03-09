@@ -1,4 +1,4 @@
-# TITULO DO PROJETO
+# Os fatores que influenciam os salários dos profissionais de dados no Brasil.
 
 INTEGRANTES:
 
@@ -36,64 +36,51 @@ O mercado de dados no Brasil cresce exponencialmente, impulsionado pela transfor
 
 ###    Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+Nos últimos anos, a área de ciência de dados tem se consolidado como um dos segmentos mais promissores do mercado de trabalho, impulsionada pelo crescimento da transformação digital e pelo uso intensivo de dados nas tomadas de decisão empresariais. Com essa expansão, há um aumento na demanda por profissionais qualificados, o que torna relevante a análise dos fatores que influenciam a remuneração desses especialistas.
+Nesse contexto, este projeto se insere na interseção entre inteligência artificial, análise de dados e mercado de trabalho, buscando compreender como diferentes características dos profissionais de dados impactam seus salários no Brasil. Para isso, o estudo utiliza um sistema inteligente capaz de processar grandes volumes de informações e identificar padrões relacionados a variáveis como nível de formação, experiência profissional, porte da empresa, localização geográfica e domínio de tecnologias específicas. Essa abordagem possibilita uma análise mais precisa e baseada em evidências sobre os determinantes salariais no setor.
 
 ###    Problema
 
-Nesse momento você deve apresentar o problema que seu agente pretende resolver. 
-No entanto, não é a hora de comentar sobre a aplicação.
-Descreva também o contexto em que essa aplicação será usada, se  houver: 
-empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, 
-pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve 
-sucintamente apresentar o cenário de problema da empresa. A empresa só deve ser citada 
-explicitamente se o aluno tiver autorização para tal.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+O problema central deste projeto é entender quais características dos profissionais de dados no Brasil afetam de forma mais significativa seus salários. Essa questão é relevante tanto para trabalhadores que buscam otimizar suas trajetórias profissionais quanto para empresas que desejam estabelecer políticas salariais mais competitivas. O contexto da aplicação envolve o mercado de tecnologia e ciência de dados, abrangendo profissionais de diferentes perfis, desde iniciantes até especialistas, que atuam em empresas de diversos portes e segmentos. O estudo se baseia em dados reais, extraídos de fontes como o State of Data - BR 2023, para analisar padrões e tendências salariais no setor. 
 
 ###    Objetivo geral
 
-Desenvolver um sistema inteligente para analisar se profissionais formados em estados brasileiros com melhores indicadores educacionais (IDEB, investimento por aluno, escolaridade média) alcançam cargos de maior senioridade e apresentam salários superiores no mercado de dados.
+Desenvolver um sistema inteligente para analisar o impacto de fatores como nível de formação, experiência profissional, porte da empresa, localização geográfica e conhecimento em tecnologias nos salários dos profissionais de dados no Brasil, utilizando dados extraídos do State of Data - BR 2023 e outras fontes complementares. 
 
 ####    Objetivos específicos
 
-1. Analisar a Relação entre Educação e Sucesso Profissional: Identificar se há uma correlação significativa entre os indicadores educacionais dos estados e os salários ou cargos ocupados pelos profissionais.
- 2. Comparar Dados de Diferentes Estados: Coletar e comparar dados de salários e cargos de profissionais formados em estados com diferentes níveis de indicadores educacionais.
-3. Identificar Fatores Contribuintes: Investigar outros fatores que podem influenciar o sucesso profissional, como rede de contatos, experiência prévia e setor de atuação.
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+    • Analisar a relação entre nível de formação, experiência profissional e porte da empresa com a remuneração dos profissionais de dados no Brasil, utilizando técnicas de aprendizado de máquina e análise estatística.
+    • Investigar o impacto da localização geográfica e do domínio de determinadas tecnologias no salário dos profissionais, identificando possíveis desigualdades regionais e valorização de habilidades específicas no mercado.
+    • Desenvolver modelos preditivos capazes de estimar faixas salariais com base nos atributos dos profissionais, fornecendo insights para tomada de decisão sobre carreira e políticas salariais.
+    • Implementar visualizações interativas e relatórios analíticos para facilitar a interpretação dos padrões identificados, tornando os resultados acessíveis para diferentes perfis de usuários.
 
 
 ###    Justificativas
 
-A educação é um dos principais determinantes do sucesso profissional. Estados com melhores indicadores educacionais tendem a oferecer uma formação mais robusta, o que pode resultar em profissionais mais capacitados e preparados para o mercado de trabalho. Compreender essa relação pode ajudar a direcionar políticas públicas e investimentos em educação, além de auxiliar indivíduos em suas escolhas acadêmicas e profissionais. Além disso, essa análise pode revelar desigualdades regionais que precisam ser abordadas para promover uma sociedade mais equitativa.
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A crescente demanda por profissionais de ciência de dados no Brasil, aliada às variações salariais influenciadas por múltiplos fatores, torna essencial a compreensão dos elementos que impactam a remuneração desses especialistas. Segundo o artigo "Carreira em Dados: conheça as principais áreas e como ingressar" (Alura, 2023), aspectos como nível de formação, experiência, porte da empresa, localização geográfica e domínio de tecnologias exercem influência direta sobre as oportunidades e os ganhos no setor. No entanto, ainda há uma lacuna na identificação quantitativa e preditiva desses fatores, dificultando a tomada de decisão tanto para profissionais que buscam progressão na carreira quanto para empresas que desejam formular políticas salariais competitivas.
+Diante desse cenário, este projeto se justifica pela necessidade de um sistema inteligente capaz de analisar e prever os impactos desses fatores nos salários dos profissionais de dados no Brasil. Ao utilizar dados extraídos do State of Data - BR 2023 e outras fontes complementares, o sistema busca gerar insights estratégicos baseados em evidências, permitindo um entendimento mais profundo da valorização profissional no setor. Além disso, a implementação de modelos preditivos e visualizações interativas possibilita a democratização da informação, fornecendo subsídios para que profissionais façam escolhas informadas sobre suas carreiras e empresas ajustem suas políticas de remuneração de forma mais eficiente e equitativa.
 
 
 
 ##    Público alvo
 
-Estudantes e Recém-Formados: Para que possam tomar decisões informadas sobre onde estudar e quais áreas seguir.
- 
- Instituições de Ensino: Para que possam entender a importância de melhorar seus currículos e infraestrutura.
- 
- Empregadores e Recrutadores: Para que possam considerar a origem educacional dos candidatos em seus processos de seleção.
-
-Políticos e Formuladores de Políticas Públicas: Para que possam desenvolver estratégias que melhorem a educação em estados com indicadores mais baixos.
-
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
-
+A aplicação será utilizada por diferentes perfis de usuários que buscam compreender os fatores que influenciam os salários no setor de ciência de dados no Brasil. Esses usuários podem ter níveis variados de conhecimento sobre tecnologia e estatística, mas todos compartilham o interesse em tomar decisões informadas com base em dados. A seguir, são descritos os principais perfis de usuários:
+    1. Profissionais de Ciência de Dados e Tecnologia
+        ◦ Perfil: Engenheiros de dados, cientistas de dados, analistas de dados e desenvolvedores que desejam entender melhor o impacto de fatores como experiência, formação acadêmica e habilidades tecnológicas em seus salários. 
+        ◦ Conhecimento prévio: Alto conhecimento técnico em programação, estatística e machine learning. Familiaridade com análise de dados e interpretação de gráficos interativos. 
+        ◦ Relação com a tecnologia: Usuários experientes, que podem usar os resultados do sistema para planejar sua progressão de carreira e negociar salários. 
+    2. Profissionais em Transição de Carreira
+        ◦ Perfil: Pessoas migrando para a área de dados, vindas de setores como engenharia, administração, marketing e finanças. 
+        ◦ Conhecimento prévio: Nível intermediário a básico em ciência de dados e estatística. Interesse em entender quais habilidades e qualificações são mais valorizadas no mercado. 
+        ◦ Relação com a tecnologia: Familiarizados com ferramentas básicas de análise de dados, mas podem necessitar de suporte na interpretação dos resultados. 
+    3. Recrutadores e Gestores de RH
+        ◦ Perfil: Profissionais de Recursos Humanos e gestores que contratam e definem políticas salariais para equipes de dados. 
+        ◦ Conhecimento prévio: Baixo conhecimento técnico sobre ciência de dados, mas familiaridade com tendências de mercado e estruturação de cargos e salários. 
+        ◦ Relação com a tecnologia: Usam a aplicação para comparar remunerações, identificar padrões e embasar decisões estratégicas de contratação. 
+    4. Empresas e Tomadores de Decisão
+        ◦ Perfil: Diretores e líderes de empresas de tecnologia e dados que desejam entender melhor a dinâmica salarial do setor para definir estratégias de retenção e contratação. 
+        ◦ Conhecimento prévio: Alto conhecimento sobre negócios e gestão, mas limitado em análise de dados e machine learning. 
+        ◦ Relação com a tecnologia: Buscam relatórios e insights claros para embasar decisões estratégicas. 
 
 ## Análise exploratórida dos dados
 
