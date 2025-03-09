@@ -1,7 +1,7 @@
-**Empregabilidade: Fatores Determinantes na Empregabilidade dos Profissionais de Dados no Brasil**
+**Os fatores que influenciam os salários dos profissionais de dados no Brasil.**
 
-O projeto desenvolve um sistema inteligente para analisar os fatores que influenciam a empregabilidade de profissionais no setor de dados no Brasil, tendo como base principal o State of Data Brazil 2023. O sistema utiliza técnicas de inteligência artificial e aprendizado de máquina para processar e cruzar informações sobre formação acadêmica, localização geográfica e experiência profissional, identificando padrões que afetam a inserção no mercado de trabalho.
-A solução integra dados de múltiplas fontes, realiza análises preditivas e gera insights automatizados sobre as dinâmicas do setor de tecnologia e dados. Ele classifica perfis profissionais, identifica tendências do mercado e sugere padrões que podem auxiliar tanto profissionais quanto empresas na tomada de decisões estratégicas relacionadas à contratação e qualificação profissional.
+O projeto desenvolve um sistema inteligente para analisar os fatores que influenciam os salários dos profissionais de dados no Brasil. A solução utiliza técnicas de aprendizado de máquina e análise estatística para processar informações relacionadas ao nível de formação, experiência, porte da empresa, localização geográfica e conhecimento em tecnologias específicas. Com base nesses dados, o sistema identifica padrões e relações entre essas variáveis, permitindo uma avaliação precisa do impacto de cada fator na remuneração dos profissionais.
+A aplicação integra múltiplas fontes de dados, realizando a coleta, processamento e modelagem de forma automatizada. O sistema apresenta insights visuais e relatórios interativos, facilitando a compreensão dos resultados por diferentes perfis de usuários. Além disso, ele é projetado para ser escalável e adaptável a novas bases de dados, permitindo atualizações contínuas conforme o mercado de trabalho evolui.
 
 ## Integrantes
 
