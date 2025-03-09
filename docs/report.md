@@ -49,10 +49,10 @@ Desenvolver um sistema inteligente para analisar o impacto de fatores como níve
 
 ####    Objetivos específicos
 
-    • Analisar a relação entre nível de formação, experiência profissional e porte da empresa com a remuneração dos profissionais de dados no Brasil, utilizando técnicas de aprendizado de máquina e análise estatística.
-    • Investigar o impacto da localização geográfica e do domínio de determinadas tecnologias no salário dos profissionais, identificando possíveis desigualdades regionais e valorização de habilidades específicas no mercado.
-    • Desenvolver modelos preditivos capazes de estimar faixas salariais com base nos atributos dos profissionais, fornecendo insights para tomada de decisão sobre carreira e políticas salariais.
-    • Implementar visualizações interativas e relatórios analíticos para facilitar a interpretação dos padrões identificados, tornando os resultados acessíveis para diferentes perfis de usuários.
+Analisar a relação entre nível de formação, experiência profissional e porte da empresa com a remuneração dos profissionais de dados no Brasil, utilizando técnicas de aprendizado de máquina e análise estatística.
+Investigar o impacto da localização geográfica e do domínio de determinadas tecnologias no salário dos profissionais, identificando possíveis desigualdades regionais e valorização de habilidades específicas no mercado.
+Desenvolver modelos preditivos capazes de estimar faixas salariais com base nos atributos dos profissionais, fornecendo insights para tomada de decisão sobre carreira e políticas salariais.
+Implementar visualizações interativas e relatórios analíticos para facilitar a interpretação dos padrões identificados, tornando os resultados acessíveis para diferentes perfis de usuários.
 
 
 ###    Justificativas
@@ -65,22 +65,26 @@ Diante desse cenário, este projeto se justifica pela necessidade de um sistema 
 ##    Público alvo
 
 A aplicação será utilizada por diferentes perfis de usuários que buscam compreender os fatores que influenciam os salários no setor de ciência de dados no Brasil. Esses usuários podem ter níveis variados de conhecimento sobre tecnologia e estatística, mas todos compartilham o interesse em tomar decisões informadas com base em dados. A seguir, são descritos os principais perfis de usuários:
-    1. Profissionais de Ciência de Dados e Tecnologia
-        ◦ Perfil: Engenheiros de dados, cientistas de dados, analistas de dados e desenvolvedores que desejam entender melhor o impacto de fatores como experiência, formação acadêmica e habilidades tecnológicas em seus salários. 
-        ◦ Conhecimento prévio: Alto conhecimento técnico em programação, estatística e machine learning. Familiaridade com análise de dados e interpretação de gráficos interativos. 
-        ◦ Relação com a tecnologia: Usuários experientes, que podem usar os resultados do sistema para planejar sua progressão de carreira e negociar salários. 
-    2. Profissionais em Transição de Carreira
-        ◦ Perfil: Pessoas migrando para a área de dados, vindas de setores como engenharia, administração, marketing e finanças. 
-        ◦ Conhecimento prévio: Nível intermediário a básico em ciência de dados e estatística. Interesse em entender quais habilidades e qualificações são mais valorizadas no mercado. 
-        ◦ Relação com a tecnologia: Familiarizados com ferramentas básicas de análise de dados, mas podem necessitar de suporte na interpretação dos resultados. 
-    3. Recrutadores e Gestores de RH
-        ◦ Perfil: Profissionais de Recursos Humanos e gestores que contratam e definem políticas salariais para equipes de dados. 
-        ◦ Conhecimento prévio: Baixo conhecimento técnico sobre ciência de dados, mas familiaridade com tendências de mercado e estruturação de cargos e salários. 
-        ◦ Relação com a tecnologia: Usam a aplicação para comparar remunerações, identificar padrões e embasar decisões estratégicas de contratação. 
-    4. Empresas e Tomadores de Decisão
-        ◦ Perfil: Diretores e líderes de empresas de tecnologia e dados que desejam entender melhor a dinâmica salarial do setor para definir estratégias de retenção e contratação. 
-        ◦ Conhecimento prévio: Alto conhecimento sobre negócios e gestão, mas limitado em análise de dados e machine learning. 
-        ◦ Relação com a tecnologia: Buscam relatórios e insights claros para embasar decisões estratégicas. 
+
+**Profissionais de Ciência de Dados e Tecnologia**
+**Perfil:** Engenheiros de dados, cientistas de dados, analistas de dados e desenvolvedores que desejam entender melhor o impacto de fatores como experiência, formação acadêmica e habilidades tecnológicas em seus salários. 
+**Conhecimento prévio:** Alto conhecimento técnico em programação, estatística e machine learning. Familiaridade com análise de dados e interpretação de gráficos interativos. 
+**Relação com a tecnologia:** Usuários experientes, que podem usar os resultados do sistema para planejar sua progressão de carreira e negociar salários. 
+
+**Profissionais em Transição de Carreira**
+**Perfil:** Pessoas migrando para a área de dados, vindas de setores como engenharia, administração, marketing e finanças. 
+**Conhecimento prévio:** Nível intermediário a básico em ciência de dados e estatística. Interesse em entender quais habilidades e qualificações são mais valorizadas no mercado. 
+**Relação com a tecnologia:** Familiarizados com ferramentas básicas de análise de dados, mas podem necessitar de suporte na interpretação dos resultados. 
+
+**Recrutadores e Gestores de RH**
+**Perfil:** Profissionais de Recursos Humanos e gestores que contratam e definem políticas salariais para equipes de dados. 
+**Conhecimento prévio:** Baixo conhecimento técnico sobre ciência de dados, mas familiaridade com tendências de mercado e estruturação de cargos e salários. 
+**Relação com a tecnologia:** Usam a aplicação para comparar remunerações, identificar padrões e embasar decisões estratégicas de contratação. 
+
+**Empresas e Tomadores de Decisão**
+**Perfil:** Diretores e líderes de empresas de tecnologia e dados que desejam entender melhor a dinâmica salarial do setor para definir estratégias de retenção e contratação. 
+**Conhecimento prévio:** Alto conhecimento sobre negócios e gestão, mas limitado em análise de dados e machine learning. 
+**Relação com a tecnologia:** Buscam relatórios e insights claros para embasar decisões estratégicas. 
 
 ## Análise exploratórida dos dados
 
