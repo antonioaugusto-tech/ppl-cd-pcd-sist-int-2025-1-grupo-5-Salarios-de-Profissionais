@@ -131,6 +131,7 @@ Características Demográficas
     * Tipo de Dado: Categórico.
       
 **PIB Ótica renda UF**
+
 A base Contas Regionais do Brasil, do IBGE, traz dados sobre o PIB, setores econômicos, participação estadual na economia, PIB per capita e população. 
 
 1. Produto Interno Bruto (PIB)
