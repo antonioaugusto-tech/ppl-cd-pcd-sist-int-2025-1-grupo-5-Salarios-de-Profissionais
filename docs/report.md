@@ -95,40 +95,138 @@ A aplicação será utilizada por diferentes perfis de usuários que buscam comp
 
 **State of Data Brazil 2023**
 A base de dados State of Data Brazil 2023 é rica em informações sobre profissionais no setor de dados no Brasil, abordando tanto características demográficas quanto aspectos profissionais e de experiência no mercado de trabalho.
+
+Características Demográficas
+
 Localização Geográfica
-1. Estado onde Mora ('P1_i')
-    * Descrição: Estado onde o profissional reside atualmente.
-    * Tipo de Dado: Categórico (nome do estado).
 
-2. UF onde Mora ('P1_i_1')
-    * Descrição: Unidade Federativa (UF) onde o profissional reside atualmete.
-    * Tipo de Dado: Categórico (sigla da UF).
+1. Estado onde Mora (P1_i)
 
-3. Região onde Mora ('P1_i_2')
-    * Descrição: Região geográfica do Brasil onde o profissional reside (Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
-    * Tipo de Dado: Categórico (nome da região).
+Descrição: Estado onde o profissional reside atualmente.
+
+Tipo de Dado: Categórico (nome do estado).
+
+
+
+2. UF onde Mora (P1_i_1)
+
+Descrição: Unidade Federativa (UF) onde o profissional reside atualmente.
+
+Tipo de Dado: Categórico (sigla da UF).
+
+
+
+3. Região onde Mora (P1_i_2)
+
+Descrição: Região geográfica do Brasil onde o profissional reside (Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
+
+Tipo de Dado: Categórico (nome da região).
+
+
 
 
 Características Demográficas
-1. Idade ('P1_a')
-    * Descrição: Idade do profissional em anos.
-    * Tipo de Dado: Numérico.
 
-2. Faixa de Idade ('P1_a_1')
-    * Descrição: Faixa etária do profissional (por exemplo, 22-24, 30-34, etc.).
-    * Tipo de Dado: Categórico.
+4. Idade (P1_a)
 
-3. Gênero ('P1_b')
-    * Descrição: Gênero do profissional (Masculino, Feminino, etc.).
-    * Tipo de Dado: Categórico.
+Descrição: Idade do profissional em anos.
 
-4. Etnia/Cor/Raça ('P1_c')
-    * Descrição: Etnia, cor ou raça do profissional.
-    * Tipo de Dado: Categórico.
+Tipo de Dado: Numérico.
 
-5. Nível de Ensino ('P1_l')
-    * Descrição: Nível de educação do profissional (Ensino Fundamental, Ensino Médio, Ensino Superior, Pós-Graduação).
-    * Tipo de Dado: Categórico.
+
+
+5. Faixa de Idade (P1_a_1)
+
+Descrição: Faixa etária do profissional (por exemplo, 22-24, 30-34, etc.).
+
+Tipo de Dado: Categórico.
+
+
+
+6. Gênero (P1_b)
+
+Descrição: Gênero do profissional (Masculino, Feminino, etc.).
+
+Tipo de Dado: Categórico.
+
+
+
+7. Etnia/Cor/Raça (P1_c)
+
+Descrição: Etnia, cor ou raça do profissional.
+
+Tipo de Dado: Categórico.
+
+
+
+8. Nível de Ensino (P1_l)
+
+Descrição: Nível de educação do profissional (Ensino Fundamental, Ensino Médio, Ensino Superior, Pós-Graduação).
+
+Tipo de Dado: Categórico.
+
+
+
+
+Aspectos Profissionais
+
+9. Faixa Salarial Mensal (P2_a)
+
+Descrição: Intervalo de renda mensal do profissional (por exemplo, R$2.000-R$4.000, R$8.000-R$12.000).
+
+Tipo de Dado: Categórico.
+
+Relevância: Permite comparar a renda com o custo de vida por estado.
+
+
+
+10. Experiência Profissional em Dados (P2_d)
+
+Descrição: Tempo de experiência do profissional na área de dados (menos de 1 ano, 1-2 anos, 3-5 anos, etc.).
+
+Tipo de Dado: Categórico.
+
+Relevância: Possibilita avaliar se a experiência influencia o salário em diferentes estados.
+
+
+
+11. Cargo Atual (P2_e)
+
+Descrição: Cargo ocupado pelo profissional (Analista de Dados, Cientista de Dados, Engenheiro de Dados, etc.).
+
+Tipo de Dado: Categórico.
+
+Relevância: Permite segmentar a análise salarial por cargo e verificar variações entre estados.
+
+
+
+12. Tamanho da Empresa (P2_f)
+
+Descrição: Porte da empresa onde o profissional trabalha (Startup, Pequena, Média, Grande Empresa, Multinacional).
+
+Tipo de Dado: Categórico.
+
+Relevância: Empresas maiores podem pagar salários diferentes dependendo da região.
+
+
+
+13. Modelo de Trabalho (P2_j)
+
+Descrição: Tipo de regime de trabalho (Presencial, Híbrido, Remoto).
+
+Tipo de Dado: Categórico.
+
+Relevância: Profissionais remotos podem ter maior flexibilidade para escolher estados com menor custo de vida.
+
+
+
+14. Setor da Empresa (P2_h)
+
+Descrição: Setor de atuação da empresa (Bancos, Tecnologia, Saúde, Varejo, etc.).
+
+Tipo de Dado: Categórico.
+
+Relevância: O setor pode impactar os salários pagos em diferentes estados.
       
 **PIB Ótica renda UF**
 
