@@ -281,6 +281,210 @@ A base Contas Regionais do Brasil, do IBGE, traz dados sobre o PIB, setores econ
 
    * Descrição: Região do Brasil à qual a unidade federativa pertence.
    * Tipo de dado: Categórico (5 categorias: Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
+  
+   Painel IDHM (UNDP Brasil)
+
+1. Identificação e Localização Geográfica
+
+Código do Município
+
+Descrição: Código único (geralmente do IBGE) que identifica o município.
+
+Tipo de Dado: Numérico/Categórico (identificador).
+
+
+Município
+
+Descrição: Nome do município.
+
+Tipo de Dado: Categórico.
+
+
+UF
+
+Descrição: Sigla da Unidade Federativa em que o município está localizado.
+
+Tipo de Dado: Categórico.
+
+
+Região
+
+Descrição: Região geográfica do Brasil (Norte, Nordeste, Sudeste, Sul, Centro-Oeste) em que o município se encontra.
+
+Tipo de Dado: Categórico.
+
+
+Ano de Cálculo/Referência
+
+Descrição: Ano em que os dados foram coletados ou o índice foi calculado (por exemplo, 2010, 2015, etc.).
+
+Tipo de Dado: Numérico/Categórico.
+
+
+
+2. Indicadores Compostos do Desenvolvimento Humano
+
+IDHM (Índice de Desenvolvimento Humano)
+
+Descrição: Índice composto que sintetiza o desenvolvimento humano global do município, combinando os componentes de longevidade, educação e renda. O valor varia de 0 a 1, sendo que valores mais próximos de 1 indicam maior desenvolvimento.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+IDHM Vida Longa
+
+Descrição: Componente do IDHM que reflete a dimensão da saúde e longevidade, geralmente mensurado por meio da expectativa de vida ao nascer.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+IDHM Educação
+
+Descrição: Componente do IDHM relacionado à educação, levando em conta indicadores como a expectativa de anos de estudo e os anos médios de escolaridade dos adultos.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+IDHM Renda
+
+Descrição: Componente do IDHM que avalia a dimensão econômica, normalmente calculado a partir do rendimento per capita.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+
+3. Indicadores Sociais e Econômicos
+
+Expectativa de Vida ao Nascer
+
+Descrição: Média de anos que uma criança, nascida naquele município, tem de expectativa de vida, refletindo condições de saúde e assistência médica.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+Anos Médios de Escolaridade
+
+Descrição: Média dos anos de estudo da população adulta do município, indicando o nível educacional alcançado.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+Rendimento per Capita
+
+Descrição: Média do rendimento per capita (geralmente em reais) no município, refletindo o poder aquisitivo médio dos moradores.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+
+4. Rankings e Comparações
+
+Ranking do IDHM
+
+Descrição: Posição do município em relação aos demais, com base no valor do IDHM. Esse ranking ajuda a identificar quais municípios estão à frente ou atrás no desenvolvimento humano.
+
+Tipo de Dado: Numérico (Ordinal)Painel IDHM (UNDP Brasil)
+
+1. Identificação e Localização Geográfica
+
+Código do Município
+
+Descrição: Código único (geralmente do IBGE) que identifica o município.
+
+Tipo de Dado: Numérico/Categórico (identificador).
+
+
+Município
+
+Descrição: Nome do município.
+
+Tipo de Dado: Categórico.
+
+
+UF
+
+Descrição: Sigla da Unidade Federativa em que o município está localizado.
+
+Tipo de Dado: Categórico.
+
+
+Região
+
+Descrição: Região geográfica do Brasil (Norte, Nordeste, Sudeste, Sul, Centro-Oeste) em que o município se encontra.
+
+Tipo de Dado: Categórico.
+
+
+Ano de Cálculo/Referência
+
+Descrição: Ano em que os dados foram coletados ou o índice foi calculado (por exemplo, 2010, 2015, etc.).
+
+Tipo de Dado: Numérico/Categórico.
+
+
+
+2. Indicadores Compostos do Desenvolvimento Humano
+
+IDHM (Índice de Desenvolvimento Humano)
+
+Descrição: Índice composto que sintetiza o desenvolvimento humano global do município, combinando os componentes de longevidade, educação e renda. O valor varia de 0 a 1, sendo que valores mais próximos de 1 indicam maior desenvolvimento.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+IDHM Vida Longa
+
+Descrição: Componente do IDHM que reflete a dimensão da saúde e longevidade, geralmente mensurado por meio da expectativa de vida ao nascer.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+IDHM Educação
+
+Descrição: Componente do IDHM relacionado à educação, levando em conta indicadores como a expectativa de anos de estudo e os anos médios de escolaridade dos adultos.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+IDHM Renda
+
+Descrição: Componente do IDHM que avalia a dimensão econômica, normalmente calculado a partir do rendimento per capita.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+
+3. Indicadores Sociais e Econômicos
+
+Expectativa de Vida ao Nascer
+
+Descrição: Média de anos que uma criança, nascida naquele município, tem de expectativa de vida, refletindo condições de saúde e assistência médica.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+Anos Médios de Escolaridade
+
+Descrição: Média dos anos de estudo da população adulta do município, indicando o nível educacional alcançado.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+Rendimento per Capita
+
+Descrição: Média do rendimento per capita (geralmente em reais) no município, refletindo o poder aquisitivo médio dos moradores.
+
+Tipo de Dado: Numérico (Contínuo).
+
+
+
+4. Rankings e Comparações
+
+Ranking do IDHM
+
+Descrição: Posição do município em relação aos demais, com base no valor do IDHM. Esse ranking ajuda a identificar quais municípios estão à frente ou atrás no desenvolvimento humano.
+
+Tipo de Dado: Numérico (Ordinal)
 
 ###    Descrição de dados
 
