@@ -17,6 +17,7 @@ Vinicius Bigonha Cancela Moraes de Melo Filho, vbcmmfilho@sga.pucminas.br
 Professores:
 
 Prof. Hugo Bastos de Paula
+
 Prof. Hayala Nepomuceno Curto
 ---
 
