@@ -19,6 +19,7 @@ Professores:
 Prof. Hugo Bastos de Paula
 
 Prof. Hayala Nepomuceno Curto
+
 ---
 
 _Curso de Ciência de Dados, Unidade Praça da Liberdade_
