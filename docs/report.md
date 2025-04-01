@@ -98,138 +98,116 @@ A aplicação será utilizada por diferentes perfis de usuários que buscam comp
 
 **State of Data Brazil 2023**
 A base de dados State of Data Brazil 2023 é rica em informações sobre profissionais no setor de dados no Brasil, abordando tanto características demográficas quanto aspectos profissionais e de experiência no mercado de trabalho.
+ 
+ *Salario Médio
+Descrição: É a média da faixa salarial mensal 
 
-Características Demográficas
+Tipo de Dado: Qualitativo - Nominal - Multivariado
 
-Localização Geográfica
+ *Nível
+Descrição: Indica níveis de carreira que se diferenciam pela experiência, autonomia e responsabilidades
 
-1. Estado onde Mora (P1_i)
+Tipo de Dado: Qualitativo - Ordinal
 
+ *Número de Funcionários da Empresa
+Descrição: Indica uma faixa do número de funcionários de uma empresa
+
+Tipo de Dado: Qualitativo - Ordinal
+
+ *Situação Atual de Trabalho
+Descrição: Indica o tipo de vínculo empregatício do profissional. 
+
+Tipo de Dado: Qualitativo - Nominal - Multivariado
+
+ *Área de Formação
+Descrição: Indica a área de formação acadêmica do profissional.
+
+Tipo de Dado: Qualitativo - Nominal - Multivariado
+
+ *Estado de Origem
+Descrição: Indica o estado originário do profissional.
+
+Tipo de Dado: Qualitativo - Nominal - Multivariado
+
+ *Mudou de Estado
+Descrição: Se o profissional mudou de estado.
+
+Tipo de Dado: Tipo de Dado: Qualitativo - Nominal - Binário
+
+ *PCD (Pessoa Com Deficiência)
+Descrição: Se o profissional possui alguma deficiência.
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+ *Estado onde Mora 
 Descrição: Estado onde o profissional reside atualmente.
 
-Tipo de Dado: Categórico (nome do estado).
+Tipo de Dado: Qualitativo - Nominal - Multivariado
 
-
-
-2. UF onde Mora (P1_i_1)
-
+ *UF onde Mora 
 Descrição: Unidade Federativa (UF) onde o profissional reside atualmente.
 
-Tipo de Dado: Categórico (sigla da UF).
+Tipo de Dado: Qualitativo - Nominal - Multivariado
 
-
-
-3. Região onde Mora (P1_i_2)
-
+ *Região onde Mora
 Descrição: Região geográfica do Brasil onde o profissional reside (Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
 
-Tipo de Dado: Categórico (nome da região).
+Tipo de Dado: Qualitativo - Nominal - Multivariado
 
-
-
-
-Características Demográficas
-
-4. Idade (P1_a)
-
+ *Idade 
 Descrição: Idade do profissional em anos.
 
-Tipo de Dado: Numérico.
+Tipo de Dado: Quantitativo - Discreto
 
-
-
-5. Faixa de Idade (P1_a_1)
-
+ *Faixa de Idade
 Descrição: Faixa etária do profissional (por exemplo, 22-24, 30-34, etc.).
 
-Tipo de Dado: Categórico.
+Tipo de Dado: Qualitativo - Ordinal
 
-
-
-6. Gênero (P1_b)
-
+ *Gênero
 Descrição: Gênero do profissional (Masculino, Feminino, etc.).
 
-Tipo de Dado: Categórico.
+Tipo de Dado: Qualitativo - Nominal - Binário
 
-
-
-7. Etnia/Cor/Raça (P1_c)
-
+ *Etnia/Cor/Raça 
 Descrição: Etnia, cor ou raça do profissional.
 
-Tipo de Dado: Categórico.
+Tipo de Dado: Qualitativo - Nominal - Multivalorado
 
-
-
-8. Nível de Ensino (P1_l)
-
+ *Nível de Ensino 
 Descrição: Nível de educação do profissional (Ensino Fundamental, Ensino Médio, Ensino Superior, Pós-Graduação).
 
-Tipo de Dado: Categórico.
+Tipo de Dado: Qualitativo - Ordinal
 
-
-
-
-Aspectos Profissionais
-
-9. Faixa Salarial Mensal (P2_a)
-
+ *Faixa Salarial Mensal 
 Descrição: Intervalo de renda mensal do profissional (por exemplo, R$2.000-R$4.000, R$8.000-R$12.000).
 
-Tipo de Dado: Categórico.
+Tipo de Dado: Qualitativo - Ordinal
 
-Relevância: Permite comparar a renda com o custo de vida por estado.
-
-
-
-10. Experiência Profissional em Dados (P2_d)
-
+ *Experiência Profissional em Dados 
 Descrição: Tempo de experiência do profissional na área de dados (menos de 1 ano, 1-2 anos, 3-5 anos, etc.).
 
-Tipo de Dado: Categórico.
+Tipo de Dado: Qualitativo - Ordinal
 
-Relevância: Possibilita avaliar se a experiência influencia o salário em diferentes estados.
-
-
-
-11. Cargo Atual (P2_e)
-
+ *Cargo Atual 
 Descrição: Cargo ocupado pelo profissional (Analista de Dados, Cientista de Dados, Engenheiro de Dados, etc.).
 
-Tipo de Dado: Categórico.
+Tipo de Dado: Qualitativo - Nominal - Multivariado
 
-Relevância: Permite segmentar a análise salarial por cargo e verificar variações entre estados.
-
-
-
-12. Tamanho da Empresa (P2_f)
-
+ *Tamanho da Empresa 
 Descrição: Porte da empresa onde o profissional trabalha (Startup, Pequena, Média, Grande Empresa, Multinacional).
 
-Tipo de Dado: Categórico.
+Tipo de Dado: Qualitativo - Ordinal
 
-Relevância: Empresas maiores podem pagar salários diferentes dependendo da região.
-
-
-
-13. Modelo de Trabalho (P2_j)
-
+ *Modelo de Trabalho 
 Descrição: Tipo de regime de trabalho (Presencial, Híbrido, Remoto).
 
-Tipo de Dado: Categórico.
+Tipo de Dado: Qualitativo - Nominal - Multivariado
 
-Relevância: Profissionais remotos podem ter maior flexibilidade para escolher estados com menor custo de vida.
-
-
-
-14. Setor da Empresa (P2_h)
-
+ *Setor da Empresa 
 Descrição: Setor de atuação da empresa (Bancos, Tecnologia, Saúde, Varejo, etc.).
 
-Tipo de Dado: Categórico.
-
-Relevância: O setor pode impactar os salários pagos em diferentes estados.
+Tipo de Dado: Qualitativo - Nominal - Multivariado
       
 **PIB Ótica renda UF**
 
