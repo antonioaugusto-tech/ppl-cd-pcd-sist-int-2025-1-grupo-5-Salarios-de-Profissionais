@@ -100,111 +100,133 @@ A aplicação será utilizada por diferentes perfis de usuários que buscam comp
 A base de dados State of Data Brazil 2023 é rica em informações sobre profissionais no setor de dados no Brasil, abordando tanto características demográficas quanto aspectos profissionais e de experiência no mercado de trabalho.
  
  *Salario Médio
+ 
 Descrição: É a média da faixa salarial mensal 
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
  *Nível
+ 
 Descrição: Indica níveis de carreira que se diferenciam pela experiência, autonomia e responsabilidades
 
 Tipo de Dado: Qualitativo - Ordinal
 
  *Número de Funcionários da Empresa
+ 
 Descrição: Indica uma faixa do número de funcionários de uma empresa
 
 Tipo de Dado: Qualitativo - Ordinal
 
  *Situação Atual de Trabalho
+ 
 Descrição: Indica o tipo de vínculo empregatício do profissional. 
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
  *Área de Formação
+ 
 Descrição: Indica a área de formação acadêmica do profissional.
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
  *Estado de Origem
+ 
 Descrição: Indica o estado originário do profissional.
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
  *Mudou de Estado
+ 
 Descrição: Se o profissional mudou de estado.
 
 Tipo de Dado: Tipo de Dado: Qualitativo - Nominal - Binário
 
  *PCD (Pessoa Com Deficiência)
+ 
 Descrição: Se o profissional possui alguma deficiência.
 
 Tipo de Dado: Qualitativo - Nominal - Binário
 
  *Estado onde Mora 
+ 
 Descrição: Estado onde o profissional reside atualmente.
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
  *UF onde Mora 
+ 
 Descrição: Unidade Federativa (UF) onde o profissional reside atualmente.
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
  *Região onde Mora
+ 
 Descrição: Região geográfica do Brasil onde o profissional reside (Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
  *Idade 
+ 
 Descrição: Idade do profissional em anos.
 
 Tipo de Dado: Quantitativo - Discreto
 
  *Faixa de Idade
+ 
 Descrição: Faixa etária do profissional (por exemplo, 22-24, 30-34, etc.).
 
 Tipo de Dado: Qualitativo - Ordinal
 
  *Gênero
+ 
 Descrição: Gênero do profissional (Masculino, Feminino, etc.).
 
 Tipo de Dado: Qualitativo - Nominal - Binário
 
- *Etnia/Cor/Raça 
+ *Etnia/Cor/Raça
+ 
 Descrição: Etnia, cor ou raça do profissional.
 
 Tipo de Dado: Qualitativo - Nominal - Multivalorado
 
  *Nível de Ensino 
+ 
 Descrição: Nível de educação do profissional (Ensino Fundamental, Ensino Médio, Ensino Superior, Pós-Graduação).
 
 Tipo de Dado: Qualitativo - Ordinal
 
  *Faixa Salarial Mensal 
+ 
 Descrição: Intervalo de renda mensal do profissional (por exemplo, R$2.000-R$4.000, R$8.000-R$12.000).
 
 Tipo de Dado: Qualitativo - Ordinal
 
  *Experiência Profissional em Dados 
+ 
 Descrição: Tempo de experiência do profissional na área de dados (menos de 1 ano, 1-2 anos, 3-5 anos, etc.).
 
 Tipo de Dado: Qualitativo - Ordinal
 
  *Cargo Atual 
+ 
 Descrição: Cargo ocupado pelo profissional (Analista de Dados, Cientista de Dados, Engenheiro de Dados, etc.).
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
  *Tamanho da Empresa 
+ 
 Descrição: Porte da empresa onde o profissional trabalha (Startup, Pequena, Média, Grande Empresa, Multinacional).
 
 Tipo de Dado: Qualitativo - Ordinal
 
  *Modelo de Trabalho 
+ 
 Descrição: Tipo de regime de trabalho (Presencial, Híbrido, Remoto).
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
  *Setor da Empresa 
+ 
 Descrição: Setor de atuação da empresa (Bancos, Tecnologia, Saúde, Varejo, etc.).
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
