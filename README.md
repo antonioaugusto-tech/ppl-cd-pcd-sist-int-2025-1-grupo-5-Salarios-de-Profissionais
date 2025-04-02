@@ -6,8 +6,8 @@ A aplicação integra múltiplas fontes de dados, realizando a coleta, processam
 ## Integrantes
 
 * Antonio Augusto Vieira Lopes Filho
+* Daniel Pires de Andrade Boller
 * Diego Rodrigo Marinho Silva
-* Rodrigo Ossen Ali Rodrigues
 * Ryan Junio de Oliveira 
 * Vinicius Bigonha Cancela Moraes de Melo Filho 
 
