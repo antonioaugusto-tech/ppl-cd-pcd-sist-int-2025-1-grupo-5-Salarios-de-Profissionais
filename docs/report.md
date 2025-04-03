@@ -4,9 +4,9 @@ INTEGRANTES:
 
 Antonio Augusto Vieira Lopes Filho, aavlfilho@sga.pucminas.br
 
-Diego Rodrigo Marinho Silva, diego.marinho@sga.pucminas.br
+Daniel Pires de Andrade Boller, daniel.boller@sga.pucminas.br
 
-Rodrigo Ossen Ali Rodrigues, roarodrigues@sga.pucminas.br
+Diego Rodrigo Marinho Silva, diego.marinho@sga.pucminas.br
 
 Ryan Junio de Oliveira, ryan.junio@sga.pucminas.br
 
