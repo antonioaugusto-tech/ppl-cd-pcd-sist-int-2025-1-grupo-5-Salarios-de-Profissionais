@@ -99,395 +99,125 @@ A aplicação será utilizada por diferentes perfis de usuários que buscam comp
 **State of Data Brazil 2023**
 A base de dados State of Data Brazil 2023 é rica em informações sobre profissionais no setor de dados no Brasil, abordando tanto características demográficas quanto aspectos profissionais e de experiência no mercado de trabalho.
  
- *Salario Médio
- 
+ 	Salario Médio
 Descrição: É a média da faixa salarial mensal 
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
- *Nível
- 
+	Nível
 Descrição: Indica níveis de carreira que se diferenciam pela experiência, autonomia e responsabilidades
 
 Tipo de Dado: Qualitativo - Ordinal
 
- *Número de Funcionários da Empresa
- 
+	Número de Funcionários da Empresa
 Descrição: Indica uma faixa do número de funcionários de uma empresa
 
 Tipo de Dado: Qualitativo - Ordinal
 
- *Situação Atual de Trabalho
- 
+	Situação Atual de Trabalho
 Descrição: Indica o tipo de vínculo empregatício do profissional. 
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
- *Área de Formação
- 
+	Área de Formação
 Descrição: Indica a área de formação acadêmica do profissional.
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
- *Estado de Origem
- 
+	Estado de Origem
 Descrição: Indica o estado originário do profissional.
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
- *Mudou de Estado
- 
+	Mudou de Estado
 Descrição: Se o profissional mudou de estado.
 
 Tipo de Dado: Tipo de Dado: Qualitativo - Nominal - Binário
 
- *PCD (Pessoa Com Deficiência)
- 
+	PCD (Pessoa Com Deficiência)
 Descrição: Se o profissional possui alguma deficiência.
 
 Tipo de Dado: Qualitativo - Nominal - Binário
 
- *Estado onde Mora 
- 
+	Estado onde Mora 
 Descrição: Estado onde o profissional reside atualmente.
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
- *UF onde Mora 
- 
+	UF onde Mora 
 Descrição: Unidade Federativa (UF) onde o profissional reside atualmente.
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
- *Região onde Mora
- 
+	Região onde Mora
 Descrição: Região geográfica do Brasil onde o profissional reside (Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
- *Idade 
- 
+	Idade 
 Descrição: Idade do profissional em anos.
 
 Tipo de Dado: Quantitativo - Discreto
 
- *Faixa de Idade
- 
+	Faixa de Idade
 Descrição: Faixa etária do profissional (por exemplo, 22-24, 30-34, etc.).
 
 Tipo de Dado: Qualitativo - Ordinal
 
- *Gênero
- 
+	Gênero
 Descrição: Gênero do profissional (Masculino, Feminino, etc.).
 
 Tipo de Dado: Qualitativo - Nominal - Binário
 
- *Etnia/Cor/Raça
- 
+	Etnia/Cor/Raça 
 Descrição: Etnia, cor ou raça do profissional.
 
 Tipo de Dado: Qualitativo - Nominal - Multivalorado
 
- *Nível de Ensino 
- 
+	Nível de Ensino 
 Descrição: Nível de educação do profissional (Ensino Fundamental, Ensino Médio, Ensino Superior, Pós-Graduação).
 
 Tipo de Dado: Qualitativo - Ordinal
 
- *Faixa Salarial Mensal 
- 
+	Faixa Salarial Mensal 
 Descrição: Intervalo de renda mensal do profissional (por exemplo, R$2.000-R$4.000, R$8.000-R$12.000).
 
 Tipo de Dado: Qualitativo - Ordinal
 
- *Experiência Profissional em Dados 
- 
+	Experiência Profissional em Dados 
 Descrição: Tempo de experiência do profissional na área de dados (menos de 1 ano, 1-2 anos, 3-5 anos, etc.).
 
 Tipo de Dado: Qualitativo - Ordinal
 
- *Cargo Atual 
- 
+	Cargo Atual 
 Descrição: Cargo ocupado pelo profissional (Analista de Dados, Cientista de Dados, Engenheiro de Dados, etc.).
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
- *Tamanho da Empresa 
- 
+	Tamanho da Empresa 
 Descrição: Porte da empresa onde o profissional trabalha (Startup, Pequena, Média, Grande Empresa, Multinacional).
 
 Tipo de Dado: Qualitativo - Ordinal
 
- *Modelo de Trabalho 
- 
+	Modelo de Trabalho 
 Descrição: Tipo de regime de trabalho (Presencial, Híbrido, Remoto).
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
 
- *Setor da Empresa 
- 
+	Setor da Empresa 
 Descrição: Setor de atuação da empresa (Bancos, Tecnologia, Saúde, Varejo, etc.).
 
 Tipo de Dado: Qualitativo - Nominal - Multivariado
-      
-**PIB Ótica renda UF**
 
-A base Contas Regionais do Brasil, do IBGE, traz dados sobre o PIB, setores econômicos, participação estadual na economia, PIB per capita e população. 
-
-1. Produto Interno Bruto (PIB)
-
-   * Descrição: Valor monetário total de todos os bens e serviços finais produzidos dentro de uma unidade federativa em um período específico.
-   * Tipo de dado: Numérico (em milhões de reais).
-   * Frequência: Anual.
-
-2. Participação Relativa no PIB Nacional
-
-   * Descrição: Percentual que indica a contribuição de cada unidade federativa no PIB total do país.
-   * Tipo de dado: Numérico (percentual).
-   * Frequência: Anual.
-
-3. PIB per Capita
-
-   * Descrição: Média do PIB por habitante em cada unidade federativa.
-   * Tipo de dado: Numérico (em reais).
-   * Frequência: Anual.
-
-4. Valor Adicionado Bruto (VAB) por Setor
-
-   * Descrição: Contribuição de cada setor econômico ao PIB da unidade federativa.
-   * Subcategorias:
-        Agropecuária: Valor adicionado das atividades agrícolas e pecuárias.
-        Indústria: Valor adicionado das atividades industriais, incluindo transformação, construção e extrativa mineral.
-        Serviços: Valor adicionado das atividades de serviços, como comércio, transporte, comunicações e outros serviços.
-   * Tipo de dado: Numérico (em milhões de reais).
-   * Frequência: Anual.
-
-5. Impostos sobre Produtos Líquidos de Subsídios
-
-   * Descrição: Total de impostos cobrados sobre produtos, subtraídos os subsídios, contribuindo para o cálculo do PIB.
-   * Tipo de dado: Numérico (em milhões de reais).
-   * Frequência: Anual.
-
-6. População Residente
-
-   * Descrição: Número total de habitantes em cada unidade federativa.
-   * Tipo de dado: Numérico (número de pessoas).
-   * Frequência: Anual.
-
-7. Unidade Federativa (UF)
-
-   * Descrição: Nome da unidade federativa do Brasil.
-   * Tipo de dado: Categórico (27 categorias correspondentes às 26 estados e ao Distrito Federal).
-
-8. Região Geográfica
-
-   * Descrição: Região do Brasil à qual a unidade federativa pertence.
-   * Tipo de dado: Categórico (5 categorias: Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
-  
-   Painel IDHM (UNDP Brasil)
-
-1. Identificação e Localização Geográfica
-
-Código do Município
-
-Descrição: Código único (geralmente do IBGE) que identifica o município.
-
-Tipo de Dado: Numérico/Categórico (identificador).
-
-
-Município
-
-Descrição: Nome do município.
-
-Tipo de Dado: Categórico.
-
-
-UF
-
-Descrição: Sigla da Unidade Federativa em que o município está localizado.
-
-Tipo de Dado: Categórico.
-
-
-Região
-
-Descrição: Região geográfica do Brasil (Norte, Nordeste, Sudeste, Sul, Centro-Oeste) em que o município se encontra.
-
-Tipo de Dado: Categórico.
-
-
-Ano de Cálculo/Referência
-
-Descrição: Ano em que os dados foram coletados ou o índice foi calculado (por exemplo, 2010, 2015, etc.).
-
-Tipo de Dado: Numérico/Categórico.
-
-
-
-2. Indicadores Compostos do Desenvolvimento Humano
-
-IDHM (Índice de Desenvolvimento Humano)
-
+	IDHM
 Descrição: Índice composto que sintetiza o desenvolvimento humano global do município, combinando os componentes de longevidade, educação e renda. O valor varia de 0 a 1, sendo que valores mais próximos de 1 indicam maior desenvolvimento.
 
-Tipo de Dado: Numérico (Contínuo).
+Tipo de Dado: Quantitativo - Contínuo
 
+	PIB
+Descrição: Produto Interno Bruto é um indicador econômico que mede o valor total de bens e serviços produzido
 
-IDHM Vida Longa
-
-Descrição: Componente do IDHM que reflete a dimensão da saúde e longevidade, geralmente mensurado por meio da expectativa de vida ao nascer.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-IDHM Educação
-
-Descrição: Componente do IDHM relacionado à educação, levando em conta indicadores como a expectativa de anos de estudo e os anos médios de escolaridade dos adultos.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-IDHM Renda
-
-Descrição: Componente do IDHM que avalia a dimensão econômica, normalmente calculado a partir do rendimento per capita.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-
-3. Indicadores Sociais e Econômicos
-
-Expectativa de Vida ao Nascer
-
-Descrição: Média de anos que uma criança, nascida naquele município, tem de expectativa de vida, refletindo condições de saúde e assistência médica.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-Anos Médios de Escolaridade
-
-Descrição: Média dos anos de estudo da população adulta do município, indicando o nível educacional alcançado.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-Rendimento per Capita
-
-Descrição: Média do rendimento per capita (geralmente em reais) no município, refletindo o poder aquisitivo médio dos moradores.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-
-4. Rankings e Comparações
-
-Ranking do IDHM
-
-Descrição: Posição do município em relação aos demais, com base no valor do IDHM. Esse ranking ajuda a identificar quais municípios estão à frente ou atrás no desenvolvimento humano.
-
-Tipo de Dado: Numérico (Ordinal)Painel IDHM (UNDP Brasil)
-
-1. Identificação e Localização Geográfica
-
-Código do Município
-
-Descrição: Código único (geralmente do IBGE) que identifica o município.
-
-Tipo de Dado: Numérico/Categórico (identificador).
-
-
-Município
-
-Descrição: Nome do município.
-
-Tipo de Dado: Categórico.
-
-
-UF
-
-Descrição: Sigla da Unidade Federativa em que o município está localizado.
-
-Tipo de Dado: Categórico.
-
-
-Região
-
-Descrição: Região geográfica do Brasil (Norte, Nordeste, Sudeste, Sul, Centro-Oeste) em que o município se encontra.
-
-Tipo de Dado: Categórico.
-
-
-Ano de Cálculo/Referência
-
-Descrição: Ano em que os dados foram coletados ou o índice foi calculado (por exemplo, 2010, 2015, etc.).
-
-Tipo de Dado: Numérico/Categórico.
-
-
-
-2. Indicadores Compostos do Desenvolvimento Humano
-
-IDHM (Índice de Desenvolvimento Humano)
-
-Descrição: Índice composto que sintetiza o desenvolvimento humano global do município, combinando os componentes de longevidade, educação e renda. O valor varia de 0 a 1, sendo que valores mais próximos de 1 indicam maior desenvolvimento.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-IDHM Vida Longa
-
-Descrição: Componente do IDHM que reflete a dimensão da saúde e longevidade, geralmente mensurado por meio da expectativa de vida ao nascer.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-IDHM Educação
-
-Descrição: Componente do IDHM relacionado à educação, levando em conta indicadores como a expectativa de anos de estudo e os anos médios de escolaridade dos adultos.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-IDHM Renda
-
-Descrição: Componente do IDHM que avalia a dimensão econômica, normalmente calculado a partir do rendimento per capita.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-
-3. Indicadores Sociais e Econômicos
-
-Expectativa de Vida ao Nascer
-
-Descrição: Média de anos que uma criança, nascida naquele município, tem de expectativa de vida, refletindo condições de saúde e assistência médica.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-Anos Médios de Escolaridade
-
-Descrição: Média dos anos de estudo da população adulta do município, indicando o nível educacional alcançado.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-Rendimento per Capita
-
-Descrição: Média do rendimento per capita (geralmente em reais) no município, refletindo o poder aquisitivo médio dos moradores.
-
-Tipo de Dado: Numérico (Contínuo).
-
-
-
-4. Rankings e Comparações
-
-Ranking do IDHM
-
-Descrição: Posição do município em relação aos demais, com base no valor do IDHM. Esse ranking ajuda a identificar quais municípios estão à frente ou atrás no desenvolvimento humano.
-
-Tipo de Dado: Numérico (Ordinal)
+Tipo de Dado: Quantitativo - Contínuo
 
 ###    Descrição de dados
 
