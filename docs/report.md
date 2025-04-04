@@ -102,7 +102,7 @@ A base de dados State of Data Brazil 2023 é rica em informações sobre profiss
  	Salario Médio
 Descrição: É a média da faixa salarial mensal 
 
-Tipo de Dado: Qualitativo - Nominal - Multivariado
+Tipo de Dado: Quantitativo - Contínuo
 
 	Nível
 Descrição: Indica níveis de carreira que se diferenciam pela experiência, autonomia e responsabilidades
@@ -218,6 +218,276 @@ Tipo de Dado: Quantitativo - Contínuo
 Descrição: Produto Interno Bruto é um indicador econômico que mede o valor total de bens e serviços produzido
 
 Tipo de Dado: Quantitativo - Contínuo
+
+	Analytics_Engineer
+Descrição: Cargo (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Data_Engineer
+Descrição: Cargo (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Data_Analyst
+Descrição: Cargo (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Data_Scientist
+Descrição: Cargo (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Database_Administrator
+Descrição: Cargo (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Analista_de_Bussiness_Intelligence
+Descrição: Cargo (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Data_Architect
+Descrição: Cargo (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Data_Product_Manager
+Descrição: Cargo (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Business_Analyst
+Descrição: Cargo (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	SQL
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	R
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Python
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	C/C++/C#
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	NET
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Java
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Julia
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	SAS
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Visual Basic
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Scala
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	MATLAB
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Rust
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	PHP
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	JavaScript
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Não utilizo nenhuma linguagem
+Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Azure (Microsoft)
+Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Amazon Web Services
+Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Google Cloud (GCP)
+Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Oracle Cloud
+Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	IBM
+Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Servidores On Premise/Não Utilizamos Cloud
+Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Cloud própria
+Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Microsoft Power BI
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Qlik View/Qlik Sense
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Tableau
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Metabase
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Superset
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Redash
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Looker
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Looker Studio (Google Data Studio)
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Amazon Quicksight
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Mode
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Alteryx
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	MicroStrategy
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	IBM Analytics/Cognos
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	SAP Business Objects/SAP Analytics
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Oracle Business Intelligence
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Salesforce/Einstein Analytics
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Birst
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	SAS Visual Analytics
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Grafana
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	TIBCO Spotfire
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Pentaho
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Fazemos todas as análises utilizando apenas Excel ou planilhas do google
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
+
+	Não utilizo nenhuma ferramenta de BI no trabalho
+Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
+
+Tipo de Dado: Qualitativo - Nominal - Binário
 
 ###    Descrição de dados
 
