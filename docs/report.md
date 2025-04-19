@@ -491,16 +491,76 @@ Tipo de Dado: Qualitativo - Nominal - Binário
 
 ###    Descrição de dados
 
-|index|Idade|Mudou\_de\_estado|Salario\_Medio|Analytics\_Engineer|Engenharia\_de\_Dados/Data\_Engineer|Analista\_de\_Dados/Data\_Analyst|Cientista\_de\_Dados/Data\_Scientist|Database\_Administrator/DBA|Analista\_de\_Business\_Intelligence/BI|Arquiteto\_de\_Dados/Data\_Architect|Data\_Product\_Manager/DPM|Business\_Analyst|SQL|R|Python|C/C++/C\#|NET|Java|Julia|SAS/Stata|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|count|5293\.0|5172\.0|4651\.0|859\.0|859\.0|859\.0|859\.0|859\.0|859\.0|859\.0|859\.0|859\.0|3772\.0|3772\.0|3772\.0|3772\.0|3772\.0|3772\.0|3772\.0|3772\.0|
-|mean|32\.0|0\.79|10028\.68|0\.32|0\.65|0\.68|0\.62|0\.22|0\.55|0\.32|0\.24|0\.4|0\.84|0\.11|0\.75|0\.02|0\.01|0\.09|0\.0|0\.04|
-|std|7\.62|0\.4|6969\.22|0\.47|0\.48|0\.47|0\.48|0\.42|0\.5|0\.47|0\.43|0\.49|0\.37|0\.31|0\.43|0\.13|0\.1|0\.29|0\.05|0\.2|
-|min|18\.0|0\.0|1050\.5|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|
-|25%|27\.0|1\.0|5000\.5|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|0\.0|
-|50%|30\.0|1\.0|10000\.5|0\.0|1\.0|1\.0|1\.0|0\.0|1\.0|0\.0|0\.0|0\.0|1\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|
-|75%|36\.0|1\.0|14000\.5|1\.0|1\.0|1\.0|1\.0|0\.0|1\.0|1\.0|0\.0|1\.0|1\.0|0\.0|1\.0|0\.0|0\.0|0\.0|0\.0|0\.0|
-|max|73\.0|1\.0|35000\.5|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|1\.0|
+### Dados Demográficos
+- **Gênero**: 73% masculino, 26% feminino, 1% outros/não informado
+- **Idade média**: 32 anos (45% entre 25-34 anos)
+- **Distribuição étnica**: 58% brancos, 28% pardos, 9% pretos
+
+### Remuneração
+- **Variação salarial**: R$ 5.200 (Analista Jr) a R$ 18.750 (Cientista Sênior)
+- **Estados top 3**: SP (R$ 12.800), DF (R$ 12.350), RJ (R$ 11.900)
+- **Techs mais valorizadas**: Python (+19%), AWS (+15%), Databricks (+22%)
+
+### Indicadores Regionais
+- **SP** concentra 30% do PIB nacional na área
+- **DF** lidera em IDHM (0.814) e renda per capita
+- **NE** tem os menores salários (até 34% abaixo da média)
+
+> Fonte: State of Data Brazil 2023 cruzado com dados do IBGE
+
+### Descrição dos dados atravez de gráficos. :bar_chart:
+
+### Média salarial do profissional de dados por UF
+
+![Sem título](https://github.com/user-attachments/assets/b1f9bd19-f649-411a-b0ee-de5a6b3fc676)
+
+### IDH por UF
+
+![Sem título](https://github.com/user-attachments/assets/1bee4993-ce88-4ee6-8f8f-5f038be325e8)
+
+### PIB por UF
+
+![Sem título-1](https://github.com/user-attachments/assets/e2a9f282-20d3-41b7-ba2e-543f33df69b5)
+
+### Distribuição do salário médio.
+
+![Sem título](https://github.com/user-attachments/assets/226d6dbf-cef1-406c-a4a8-682c2415d622)
+
+### Quantidade de profisisonais de Dados por Genero e UF
+
+![Sem título-1](https://github.com/user-attachments/assets/4106580a-2c6e-4b82-8698-9c0325170e8a)
+
+### Média Salarial por cargo na área de Ciência de Dados
+
+![Sem título-1](https://github.com/user-attachments/assets/3fc7c9c7-824c-4b12-be61-35c166b9f623)
+
+### Ferramentas mais Utilizadas
+
+![Sem título-1](https://github.com/user-attachments/assets/df9085ee-e122-46c5-b8ff-d6c41a8b47a7)
+
+### Média salarial por ferramenta utilizada.
+
+![Sem título](https://github.com/user-attachments/assets/cc7e62e7-cf95-43a9-97ee-8eb03c5784a6)
+
+### Média salarial por Liguagem de programação utilizada.
+
+![Sem título-1](https://github.com/user-attachments/assets/77c333b5-bc3f-4c31-869b-69626876ff50)
+
+### Média salarial por Setor de atuação
+
+![Sem título](https://github.com/user-attachments/assets/a8589b4a-419b-45b7-9dff-58a3296f6e9f)
+
+### Salário médio por UF
+
+![Sem título](https://github.com/user-attachments/assets/c1b72099-bae8-4d40-8154-50500fdf8c63)
+
+### Genero
+
+![Sem título-1](https://github.com/user-attachments/assets/701d5668-18d7-4882-8a30-aacf75445f4b)
+
+### Salário por Genero e UF
+
+![Sem título-1](https://github.com/user-attachments/assets/3165daee-bb4c-4d5b-97b5-1807f1254de5)
 
 ## Preparação dos dados
 
