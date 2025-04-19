@@ -528,6 +528,10 @@ Tipo de Dado: Qualitativo - Nominal - Binário
 
 ### Quantidade de profisisonais de Dados por Genero e UF
 
+![Sem título-1](https://github.com/user-attachments/assets/701d5668-18d7-4882-8a30-aacf75445f4b)
+
+### Distribuição da média salarial por gênero por UF
+
 ![Sem título-1](https://github.com/user-attachments/assets/4106580a-2c6e-4b82-8698-9c0325170e8a)
 
 ### Média Salarial por cargo na área de Ciência de Dados
@@ -554,13 +558,6 @@ Tipo de Dado: Qualitativo - Nominal - Binário
 
 ![Sem título](https://github.com/user-attachments/assets/c1b72099-bae8-4d40-8154-50500fdf8c63)
 
-### Genero
-
-![Sem título-1](https://github.com/user-attachments/assets/701d5668-18d7-4882-8a30-aacf75445f4b)
-
-### Salário por Genero e UF
-
-![Sem título-1](https://github.com/user-attachments/assets/3165daee-bb4c-4d5b-97b5-1807f1254de5)
 
 ## Preparação dos dados
 
