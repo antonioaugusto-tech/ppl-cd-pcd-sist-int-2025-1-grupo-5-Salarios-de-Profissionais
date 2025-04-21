@@ -503,7 +503,8 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 - **Primeiro quartil (25%)**: 27 anos  
 - **Mediana (50%)**: 30 anos  
 - **Terceiro quartil (75%)**: 36 anos  
-- **Valor máximo**: 73 anos  
+- **Valor máximo**: 73 anos
+  
 ![Sem título-1](https://github.com/user-attachments/assets/51d85e39-7949-48e4-9f4c-b22ffe81aade)
 
 ### Sexo ou Gênero
@@ -511,6 +512,7 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 - **Feminino**: 24,4% (1.293 respostas)  
 - **Prefiro não informar**: 0,3% (16 respostas)  
 - **Outros**: 0,2% (9 respostas)
+  
 ![Sem título](https://github.com/user-attachments/assets/42765e67-ec3d-46bd-95c5-6108579e8faa)
 
 ### Raça ou Etnia
@@ -518,7 +520,8 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 - **Parda**: 24,2% (1.281 respostas)  
 - **Preta**: 7,3% (387 respostas)  
 - **Prefiro não informar**: 0,6% (34 respostas)  
-- **Outra**: 0,3% (18 respostas)  
+- **Outra**: 0,3% (18 respostas)
+  
 ![Sem título](https://github.com/user-attachments/assets/1d02b7b3-a7ef-412b-9be3-cf38ece5488c)
 
 ### Nível de Ensino
@@ -528,7 +531,8 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 - **Pós-graduação**: 12,8% (676 respostas)  
 - **Mestrado**: 4,0% (210 respostas)  
 - **Não tenho graduação formal**: 2,0% (105 respostas)  
-- **Prefiro não informar**: 0,2% (8 respostas)  
+- **Prefiro não informar**: 0,2% (8 respostas)
+
 ![Sem título](https://github.com/user-attachments/assets/63bd145b-c4e2-45af-a3fe-1fb70e2e4949)
 
 ### Salário Médio (Coluna calculada baseada na coluna faixa salarial da tabela original)
@@ -540,55 +544,70 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 - **Mediana (50%)**: R$ 10.000,50  
 - **Terceiro quartil (75%)**: R$ 14.000,50  
 - **Valor máximo**: R$ 35.000,50
+  
 ![Sem título](https://github.com/user-attachments/assets/a1b52b65-d3d3-4f4e-a372-addd16887aa5)
 ![Sem título](https://github.com/user-attachments/assets/1826221e-d0c8-44c2-b7c1-cf097f8fa643)
 
 ### Média salárial por UF
+
 ![Sem título](https://github.com/user-attachments/assets/8786e8f9-3dae-4018-b9f4-dd9f8921c4dc)
 
 ### UF
 - **Indica os estados brasileiros onde os profissionais de dados estão localizados**.
+  
 ![Sem título](https://github.com/user-attachments/assets/438cf623-b33b-4fcf-83d9-632f83df219f)
 
 ### Quantidade de profissionais de Dados relacionando Gênero por Uf
+
 ![Sem título-1](https://github.com/user-attachments/assets/65908a90-7f26-4f80-a474-59364979c7b0)
 
 ### Distribuição da média salarial por gênero por UF
+
 ![Sem título-1](https://github.com/user-attachments/assets/4106580a-2c6e-4b82-8698-9c0325170e8a)
 
 ### Média salarial por Gênero 
+
 ![Sem título-1](https://github.com/user-attachments/assets/50c21a62-6dfd-4f25-8876-4bcf7f461a7e)
 
 ### Média salarial por Cor/Raça/Etnia
+
 ![Sem título](https://github.com/user-attachments/assets/ad063eca-2509-4604-8506-a3e4caf86e35)
 
 ### Cargo Atual
 - **Informa os cargos que os profissionais de dados ocupam**.
+  
 ![Sem título](https://github.com/user-attachments/assets/34f83471-e977-411e-a923-b9ff712442c1)
 
 ### Média salarial por Cargo na área de Ciência de Dados
+
 ![Sem título](https://github.com/user-attachments/assets/71ba09b9-8706-4682-88de-da97c7285b9f)
 
 ### Média salarial por Ferramenta/Plataforma Utilizada
+
 ![Sem título-1](https://github.com/user-attachments/assets/57f89d64-5b80-48c8-bc6d-cb4ed6f1acdc)
 
 ### Média salarail por linguagem de programação Utilizada
+
 ![Sem título](https://github.com/user-attachments/assets/db4b8de2-8225-4d16-bf9d-b1ab139f40e8)
 
 ### Média salarial por setores de Atuação
+
 ![Sem título](https://github.com/user-attachments/assets/c7978035-d11d-42dd-835a-17237c14f722)
 
 
 ### Número de funcionários da empresa que trabalha
 - **Demonstra o número de funcionários da empresa onde o profissional de dados atua**.
+  
 ![Sem título](https://github.com/user-attachments/assets/a9c8751f-393d-47ba-a8e0-b32d5fe5389d)
 
 ### Nível
 - **Mostra os níveis de experiência dos profissionais de dados (Júnior, Pleno, Sênior)**.
+  
 ![Sem título](https://github.com/user-attachments/assets/9cd60832-fe0d-4961-bcd7-9a2cd861f1a0)
 
 ### Tempo de experiência na área de dados
 - **Apresenta o tempo de experiência dos profissionais agrupado por faixas**.
+  
 ![Sem título](https://github.com/user-attachments/assets/2173cdf5-36fd-4f66-9df0-861434c69d06)
 
 
@@ -596,6 +615,7 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 
 ### IDH 2021 por UF
 - **O grafico mostra o Indice de Desenvolvimento Humano dividido por Estado**.
+  
 ![Sem título](https://github.com/user-attachments/assets/1bee4993-ce88-4ee6-8f8f-5f038be325e8)
 
 - **Número de observações não nulas: 27** 
@@ -609,6 +629,7 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
       
 
 ### PIB 2021 por UF
+
 ![Sem título](https://github.com/user-attachments/assets/e5ab4bdf-ecfd-4ace-b67a-565ebb32e875)
 
 - **Número de observações não nulas: 27** 
