@@ -489,75 +489,135 @@ Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
 
 Tipo de Dado: Qualitativo - Nominal - Binário
 
-###    Descrição de dados
+###    Descrição de dados :bar_chart:
 
-### Dados Demográficos
-- **Gênero**: 73% masculino, 26% feminino, 1% outros/não informado
-- **Idade média**: 32 anos (45% entre 25-34 anos)
-- **Distribuição étnica**: 58% brancos, 28% pardos, 9% pretos
+## State of Data
 
-### Remuneração
-- **Variação salarial**: R$ 5.200 (Analista Jr) a R$ 18.750 (Cientista Sênior)
-- **Estados top 3**: SP (R$ 12.800), DF (R$ 12.350), RJ (R$ 11.900)
-- **Techs mais valorizadas**: Python (+19%), AWS (+15%), Databricks (+22%)
+A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais de dados no Brasil, abordando aspectos como formação acadêmica, experiência profissional, faixa salarial, ferramentas utilizadas e desafios enfrentados no setor.
 
-### Indicadores Regionais
-- **SP** concentra 30% do PIB nacional na área
-- **DF** lidera em IDHM (0.814) e renda per capita
-- **NE** tem os menores salários (até 34% abaixo da média)
+ ### Idade
+- **Número de observações não nulas**: 5.293  
+- **Média**: 32,0 anos  
+- **Desvio padrão**: 7,62  
+- **Valor mínimo**: 18 anos  
+- **Primeiro quartil (25%)**: 27 anos  
+- **Mediana (50%)**: 30 anos  
+- **Terceiro quartil (75%)**: 36 anos  
+- **Valor máximo**: 73 anos  
+![Sem título-1](https://github.com/user-attachments/assets/51d85e39-7949-48e4-9f4c-b22ffe81aade)
 
-> Fonte: State of Data Brazil 2023 cruzado com dados do IBGE
+### Sexo ou Gênero
+- **Masculino**: 75,1% (3.975 respostas)  
+- **Feminino**: 24,4% (1.293 respostas)  
+- **Prefiro não informar**: 0,3% (16 respostas)  
+- **Outros**: 0,2% (9 respostas)
+![Sem título](https://github.com/user-attachments/assets/42765e67-ec3d-46bd-95c5-6108579e8faa)
 
-### Descrição dos dados atravez de gráficos. :bar_chart:
+### Raça ou Etnia
+- **Branca**: 64,5% (3.414 respostas)  
+- **Parda**: 24,2% (1.281 respostas)  
+- **Preta**: 7,3% (387 respostas)  
+- **Prefiro não informar**: 0,6% (34 respostas)  
+- **Outra**: 0,3% (18 respostas)  
+![Sem título](https://github.com/user-attachments/assets/1d02b7b3-a7ef-412b-9be3-cf38ece5488c)
 
-### Média salarial do profissional de dados por UF
+### Nível de Ensino
+- **Doutorado ou PhD**: 34,3% (1.818 respostas)  
+- **Graduação/Bacharelado**: 34,0% (1.798 respostas)  
+- **Estudante de Graduação**: 12,8% (678 respostas)  
+- **Pós-graduação**: 12,8% (676 respostas)  
+- **Mestrado**: 4,0% (210 respostas)  
+- **Não tenho graduação formal**: 2,0% (105 respostas)  
+- **Prefiro não informar**: 0,2% (8 respostas)  
+![Sem título](https://github.com/user-attachments/assets/63bd145b-c4e2-45af-a3fe-1fb70e2e4949)
 
-![Sem título](https://github.com/user-attachments/assets/b1f9bd19-f649-411a-b0ee-de5a6b3fc676)
+### Salário Médio (Coluna calculada baseada na coluna faixa salarial da tabela original)
+- **Número de observações não nulas**: 4.651  
+- **Média**: R$ 10.028,67  
+- **Desvio padrão**: R$ 6.969,22  
+- **Valor mínimo**: R$ 1.050,50  
+- **Primeiro quartil (25%)**: R$ 5.000,50  
+- **Mediana (50%)**: R$ 10.000,50  
+- **Terceiro quartil (75%)**: R$ 14.000,50  
+- **Valor máximo**: R$ 35.000,50
+![Sem título](https://github.com/user-attachments/assets/a1b52b65-d3d3-4f4e-a372-addd16887aa5)
+![Sem título](https://github.com/user-attachments/assets/1826221e-d0c8-44c2-b7c1-cf097f8fa643)
 
-### IDH por UF
+### Média salárial por UF
+![Sem título](https://github.com/user-attachments/assets/8786e8f9-3dae-4018-b9f4-dd9f8921c4dc)
 
-![Sem título](https://github.com/user-attachments/assets/1bee4993-ce88-4ee6-8f8f-5f038be325e8)
+### UF
+Indica os estados brasileiros onde os profissionais de dados estão localizados.
+![Sem título](https://github.com/user-attachments/assets/438cf623-b33b-4fcf-83d9-632f83df219f)
 
-### PIB por UF
-
-![Sem título-1](https://github.com/user-attachments/assets/e2a9f282-20d3-41b7-ba2e-543f33df69b5)
-
-### Distribuição do salário médio.
-
-![Sem título](https://github.com/user-attachments/assets/226d6dbf-cef1-406c-a4a8-682c2415d622)
-
-### Quantidade de profisisonais de Dados por Genero e UF
-
-![Sem título-1](https://github.com/user-attachments/assets/701d5668-18d7-4882-8a30-aacf75445f4b)
+### Quantidade de profissionais de Dados relacionando Gênero por Uf
+![Sem título-1](https://github.com/user-attachments/assets/65908a90-7f26-4f80-a474-59364979c7b0)
 
 ### Distribuição da média salarial por gênero por UF
-
 ![Sem título-1](https://github.com/user-attachments/assets/4106580a-2c6e-4b82-8698-9c0325170e8a)
 
-### Média Salarial por cargo na área de Ciência de Dados
+### Média salarial por Gênero 
+![Sem título](https://github.com/user-attachments/assets/5d3ec639-075b-45e5-ae2f-3343cc1d7c79)
 
-![Sem título-1](https://github.com/user-attachments/assets/3fc7c9c7-824c-4b12-be61-35c166b9f623)
+### Média salarial por Cor/Raça/Etnia
+![Sem título](https://github.com/user-attachments/assets/ad063eca-2509-4604-8506-a3e4caf86e35)
 
-### Ferramentas mais Utilizadas
+### Cargo Atual
+Informa os cargos que os profissionais de dados ocupam.
+![Sem título](https://github.com/user-attachments/assets/34f83471-e977-411e-a923-b9ff712442c1)
 
-![Sem título-1](https://github.com/user-attachments/assets/df9085ee-e122-46c5-b8ff-d6c41a8b47a7)
+### Média salarial por Cargo na área de Ciência de Dados
+![Sem título](https://github.com/user-attachments/assets/71ba09b9-8706-4682-88de-da97c7285b9f)
 
-### Média salarial por ferramenta utilizada.
+### Média salarial por Ferramenta/Plataforma Utilizada
+![Sem título-1](https://github.com/user-attachments/assets/57f89d64-5b80-48c8-bc6d-cb4ed6f1acdc)
 
-![Sem título](https://github.com/user-attachments/assets/cc7e62e7-cf95-43a9-97ee-8eb03c5784a6)
+### Média salarail por linguagem de programação Utilizada
+![Sem título](https://github.com/user-attachments/assets/db4b8de2-8225-4d16-bf9d-b1ab139f40e8)
 
-### Média salarial por Liguagem de programação utilizada.
+### Média salarial por setores de Atuação
+![Sem título](https://github.com/user-attachments/assets/c7978035-d11d-42dd-835a-17237c14f722)
 
-![Sem título-1](https://github.com/user-attachments/assets/77c333b5-bc3f-4c31-869b-69626876ff50)
 
-### Média salarial por Setor de atuação
+### Número de funcionários da empresa que trabalha
+Demonstra o número de funcionários da empresa onde o profissional de dados atua.
+![Sem título](https://github.com/user-attachments/assets/a9c8751f-393d-47ba-a8e0-b32d5fe5389d)
 
-![Sem título](https://github.com/user-attachments/assets/a8589b4a-419b-45b7-9dff-58a3296f6e9f)
+### Nível
+Mostra os níveis de experiência dos profissionais de dados (Júnior, Pleno, Sênior).
+![Sem título](https://github.com/user-attachments/assets/9cd60832-fe0d-4961-bcd7-9a2cd861f1a0)
 
-### Salário médio por UF
+### Tempo de experiência na área de dados
+Apresenta o tempo de experiência dos profissionais agrupado por faixas.
+![Sem título](https://github.com/user-attachments/assets/2173cdf5-36fd-4f66-9df0-861434c69d06)
 
-![Sem título](https://github.com/user-attachments/assets/c1b72099-bae8-4d40-8154-50500fdf8c63)
 
+##Base Auxiliares
+
+### IDH 2021 por UF
+O grafico mostra o Indice de Desenvolvimento Humano dividido por Estado.
+![Sem título](https://github.com/user-attachments/assets/1bee4993-ce88-4ee6-8f8f-5f038be325e8)
+Número de observações não nulas: 27 
+Média: 0.730148
+Desvio padrão: 0.039892
+Valor mínimo: 0.676000 	
+Primeiro quartil (25% dos dados estão abaixo deste valor):0.698500
+Mediana (segundo quartil, 50% dos dados estão abaixo): 0.728000
+Terceiro quartil (75% dos dados estão abaixo deste valor): 0.765500
+Valor máximo: R$ 0.814000
+      
+
+### PIB 2021 por UF
+![Sem título](https://github.com/user-attachments/assets/e5ab4bdf-ecfd-4ace-b67a-565ebb32e875)
+
+Número de observações não nulas: 27 
+Média: 333.783.100.000,00
+Desvio padrão: 535.633.300.000,00
+Valor mínimo: 18.203.000.000,00
+Primeiro quartil (25% dos dados estão abaixo deste valor): 70.147.000.000,00 
+Mediana (segundo quartil, 50% dos dados estão abaixo): 186.337.000.000,00
+Terceiro quartil (75% dos dados estão abaixo deste valor): 319.781.000.000,00 
+Valor máximo: R$ 2.719.751.000.000,00
 
 ## Preparação dos dados
 
