@@ -615,7 +615,7 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 ![Sem título](https://github.com/user-attachments/assets/2173cdf5-36fd-4f66-9df0-861434c69d06)
 
 
-##Base Auxiliares
+## Base Auxiliares
 
 ### IDH 2021 por UF
 - **O grafico mostra o Indice de Desenvolvimento Humano dividido por Estado**.
