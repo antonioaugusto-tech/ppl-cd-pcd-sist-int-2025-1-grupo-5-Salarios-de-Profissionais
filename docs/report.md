@@ -557,9 +557,9 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
   
 ![Sem título](https://github.com/user-attachments/assets/438cf623-b33b-4fcf-83d9-632f83df219f)
 
-### Quantidade de profissionais de Dados relacionando Gênero por Uf
+### Quantidade de profissionais de Dados relacionando Gêneros por Uf
 
-![Sem título-1](https://github.com/user-attachments/assets/65908a90-7f26-4f80-a474-59364979c7b0)
+![Sem título](https://github.com/user-attachments/assets/b8dd40cf-106e-4794-9ac6-83cbf69b3c25)
 
 ### Distribuição da média salarial por gênero por UF
 
