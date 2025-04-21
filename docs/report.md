@@ -563,7 +563,7 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 
 ### Distribuição da média salarial por gênero por UF
 
-![Sem título-1](https://github.com/user-attachments/assets/4106580a-2c6e-4b82-8698-9c0325170e8a)
+![Sem título](https://github.com/user-attachments/assets/0b9b425f-9101-4f39-a9ec-fe1325ba6722)
 
 ### Média salarial por Gênero 
 
@@ -604,6 +604,10 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 - **Mostra os níveis de experiência dos profissionais de dados (Júnior, Pleno, Sênior)**.
   
 ![Sem título](https://github.com/user-attachments/assets/9cd60832-fe0d-4961-bcd7-9a2cd861f1a0)
+
+### Média salarial por Nivel de experiência.
+
+![Sem título-1](https://github.com/user-attachments/assets/99323f5e-4e60-4888-b215-aa8fde7265b7)
 
 ### Tempo de experiência na área de dados
 - **Apresenta o tempo de experiência dos profissionais agrupado por faixas**.
