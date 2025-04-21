@@ -547,7 +547,7 @@ A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais
 ![Sem título](https://github.com/user-attachments/assets/8786e8f9-3dae-4018-b9f4-dd9f8921c4dc)
 
 ### UF
-Indica os estados brasileiros onde os profissionais de dados estão localizados.
+- **Indica os estados brasileiros onde os profissionais de dados estão localizados**.
 ![Sem título](https://github.com/user-attachments/assets/438cf623-b33b-4fcf-83d9-632f83df219f)
 
 ### Quantidade de profissionais de Dados relacionando Gênero por Uf
@@ -557,13 +557,13 @@ Indica os estados brasileiros onde os profissionais de dados estão localizados.
 ![Sem título-1](https://github.com/user-attachments/assets/4106580a-2c6e-4b82-8698-9c0325170e8a)
 
 ### Média salarial por Gênero 
-![Sem título](https://github.com/user-attachments/assets/5d3ec639-075b-45e5-ae2f-3343cc1d7c79)
+![Sem título-1](https://github.com/user-attachments/assets/50c21a62-6dfd-4f25-8876-4bcf7f461a7e)
 
 ### Média salarial por Cor/Raça/Etnia
 ![Sem título](https://github.com/user-attachments/assets/ad063eca-2509-4604-8506-a3e4caf86e35)
 
 ### Cargo Atual
-Informa os cargos que os profissionais de dados ocupam.
+- **Informa os cargos que os profissionais de dados ocupam**.
 ![Sem título](https://github.com/user-attachments/assets/34f83471-e977-411e-a923-b9ff712442c1)
 
 ### Média salarial por Cargo na área de Ciência de Dados
@@ -580,44 +580,45 @@ Informa os cargos que os profissionais de dados ocupam.
 
 
 ### Número de funcionários da empresa que trabalha
-Demonstra o número de funcionários da empresa onde o profissional de dados atua.
+- **Demonstra o número de funcionários da empresa onde o profissional de dados atua**.
 ![Sem título](https://github.com/user-attachments/assets/a9c8751f-393d-47ba-a8e0-b32d5fe5389d)
 
 ### Nível
-Mostra os níveis de experiência dos profissionais de dados (Júnior, Pleno, Sênior).
+- **Mostra os níveis de experiência dos profissionais de dados (Júnior, Pleno, Sênior)**.
 ![Sem título](https://github.com/user-attachments/assets/9cd60832-fe0d-4961-bcd7-9a2cd861f1a0)
 
 ### Tempo de experiência na área de dados
-Apresenta o tempo de experiência dos profissionais agrupado por faixas.
+- **Apresenta o tempo de experiência dos profissionais agrupado por faixas**.
 ![Sem título](https://github.com/user-attachments/assets/2173cdf5-36fd-4f66-9df0-861434c69d06)
 
 
 ##Base Auxiliares
 
 ### IDH 2021 por UF
-O grafico mostra o Indice de Desenvolvimento Humano dividido por Estado.
+- **O grafico mostra o Indice de Desenvolvimento Humano dividido por Estado**.
 ![Sem título](https://github.com/user-attachments/assets/1bee4993-ce88-4ee6-8f8f-5f038be325e8)
-Número de observações não nulas: 27 
-Média: 0.730148
-Desvio padrão: 0.039892
-Valor mínimo: 0.676000 	
-Primeiro quartil (25% dos dados estão abaixo deste valor):0.698500
-Mediana (segundo quartil, 50% dos dados estão abaixo): 0.728000
-Terceiro quartil (75% dos dados estão abaixo deste valor): 0.765500
-Valor máximo: R$ 0.814000
+
+- **Número de observações não nulas: 27** 
+- **Média: 0.730148**
+- **Desvio padrão: 0.039892**
+- **Valor mínimo: 0.676000** 	
+- **Primeiro quartil (25% dos dados estão abaixo deste valor):0.698500**
+- **Mediana (segundo quartil, 50% dos dados estão abaixo): 0.728000**
+- **Terceiro quartil (75% dos dados estão abaixo deste valor): 0.765500**
+- **Valor máximo: R$ 0.814000**
       
 
 ### PIB 2021 por UF
 ![Sem título](https://github.com/user-attachments/assets/e5ab4bdf-ecfd-4ace-b67a-565ebb32e875)
 
-Número de observações não nulas: 27 
-Média: 333.783.100.000,00
-Desvio padrão: 535.633.300.000,00
-Valor mínimo: 18.203.000.000,00
-Primeiro quartil (25% dos dados estão abaixo deste valor): 70.147.000.000,00 
-Mediana (segundo quartil, 50% dos dados estão abaixo): 186.337.000.000,00
-Terceiro quartil (75% dos dados estão abaixo deste valor): 319.781.000.000,00 
-Valor máximo: R$ 2.719.751.000.000,00
+- **Número de observações não nulas: 27** 
+- **Média: 333.783.100.000,00**
+- **Desvio padrão: 535.633.300.000,00**
+- **Valor mínimo: 18.203.000.000,00**
+- **Primeiro quartil (25% dos dados estão abaixo deste valor): 70.147.000.000,00**
+- **Mediana (segundo quartil, 50% dos dados estão abaixo): 186.337.000.000,00**
+- **Terceiro quartil (75% dos dados estão abaixo deste valor): 319.781.000.000,00**
+- **Valor máximo: R$ 2.719.751.000.000,00**
 
 ## Preparação dos dados
 
