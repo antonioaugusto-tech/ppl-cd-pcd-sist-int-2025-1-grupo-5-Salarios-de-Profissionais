@@ -99,395 +99,108 @@ A aplicação será utilizada por diferentes perfis de usuários que buscam comp
 **State of Data Brazil 2023**
 A base de dados State of Data Brazil 2023 é rica em informações sobre profissionais no setor de dados no Brasil, abordando tanto características demográficas quanto aspectos profissionais e de experiência no mercado de trabalho.
  
- 	Salario Médio
-Descrição: É a média da faixa salarial mensal 
-
-Tipo de Dado: Quantitativo - Contínuo
-
-	Nível
-Descrição: Indica níveis de carreira que se diferenciam pela experiência, autonomia e responsabilidades
-
-Tipo de Dado: Qualitativo - Ordinal
-
-	Número de Funcionários da Empresa
-Descrição: Indica uma faixa do número de funcionários de uma empresa
-
-Tipo de Dado: Qualitativo - Ordinal
-
-	Situação Atual de Trabalho
-Descrição: Indica o tipo de vínculo empregatício do profissional. 
-
-Tipo de Dado: Qualitativo - Nominal - Multivariado
-
-	Área de Formação
-Descrição: Indica a área de formação acadêmica do profissional.
-
-Tipo de Dado: Qualitativo - Nominal - Multivariado
-
-	Estado de Origem
-Descrição: Indica o estado originário do profissional.
-
-Tipo de Dado: Qualitativo - Nominal - Multivariado
-
-	Mudou de Estado
-Descrição: Se o profissional mudou de estado.
-
-Tipo de Dado: Tipo de Dado: Qualitativo - Nominal - Binário
-
-	PCD (Pessoa Com Deficiência)
-Descrição: Se o profissional possui alguma deficiência.
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Estado onde Mora 
-Descrição: Estado onde o profissional reside atualmente.
-
-Tipo de Dado: Qualitativo - Nominal - Multivariado
-
-	UF onde Mora 
-Descrição: Unidade Federativa (UF) onde o profissional reside atualmente.
-
-Tipo de Dado: Qualitativo - Nominal - Multivariado
-
-	Região onde Mora
-Descrição: Região geográfica do Brasil onde o profissional reside (Norte, Nordeste, Sudeste, Sul, Centro-Oeste).
-
-Tipo de Dado: Qualitativo - Nominal - Multivariado
-
-	Idade 
-Descrição: Idade do profissional em anos.
-
-Tipo de Dado: Quantitativo - Discreto
-
-	Faixa de Idade
-Descrição: Faixa etária do profissional (por exemplo, 22-24, 30-34, etc.).
-
-Tipo de Dado: Qualitativo - Ordinal
-
-	Gênero
-Descrição: Gênero do profissional (Masculino, Feminino, etc.).
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Etnia/Cor/Raça 
-Descrição: Etnia, cor ou raça do profissional.
-
-Tipo de Dado: Qualitativo - Nominal - Multivalorado
-
-	Nível de Ensino 
-Descrição: Nível de educação do profissional (Ensino Fundamental, Ensino Médio, Ensino Superior, Pós-Graduação).
-
-Tipo de Dado: Qualitativo - Ordinal
-
-	Faixa Salarial Mensal 
-Descrição: Intervalo de renda mensal do profissional (por exemplo, R$2.000-R$4.000, R$8.000-R$12.000).
-
-Tipo de Dado: Qualitativo - Ordinal
-
-	Experiência Profissional em Dados 
-Descrição: Tempo de experiência do profissional na área de dados (menos de 1 ano, 1-2 anos, 3-5 anos, etc.).
-
-Tipo de Dado: Qualitativo - Ordinal
-
-	Cargo Atual 
-Descrição: Cargo ocupado pelo profissional (Analista de Dados, Cientista de Dados, Engenheiro de Dados, etc.).
-
-Tipo de Dado: Qualitativo - Nominal - Multivariado
-
-	Tamanho da Empresa 
-Descrição: Porte da empresa onde o profissional trabalha (Startup, Pequena, Média, Grande Empresa, Multinacional).
-
-Tipo de Dado: Qualitativo - Ordinal
-
-	Modelo de Trabalho 
-Descrição: Tipo de regime de trabalho (Presencial, Híbrido, Remoto).
-
-Tipo de Dado: Qualitativo - Nominal - Multivariado
-
-	Setor da Empresa 
-Descrição: Setor de atuação da empresa (Bancos, Tecnologia, Saúde, Varejo, etc.).
-
-Tipo de Dado: Qualitativo - Nominal - Multivariado
-
-	IDHM
-Descrição: Índice composto que sintetiza o desenvolvimento humano global do município, combinando os componentes de longevidade, educação e renda. O valor varia de 0 a 1, sendo que valores mais próximos de 1 indicam maior desenvolvimento.
-
-Tipo de Dado: Quantitativo - Contínuo
-
-	PIB
-Descrição: Produto Interno Bruto é um indicador econômico que mede o valor total de bens e serviços produzido
-
-Tipo de Dado: Quantitativo - Contínuo
-
-	Analytics_Engineer
-Descrição: Cargo (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Data_Engineer
-Descrição: Cargo (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Data_Analyst
-Descrição: Cargo (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Data_Scientist
-Descrição: Cargo (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Database_Administrator
-Descrição: Cargo (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Analista_de_Bussiness_Intelligence
-Descrição: Cargo (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Data_Architect
-Descrição: Cargo (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Data_Product_Manager
-Descrição: Cargo (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Business_Analyst
-Descrição: Cargo (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	SQL
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	R
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Python
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	C/C++/C#
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	NET
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Java
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Julia
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	SAS
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Visual Basic
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Scala
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	MATLAB
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Rust
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	PHP
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	JavaScript
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Não utilizo nenhuma linguagem
-Descrição: Linguagem de Programação (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Azure (Microsoft)
-Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Amazon Web Services
-Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Google Cloud (GCP)
-Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Oracle Cloud
-Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	IBM
-Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Servidores On Premise/Não Utilizamos Cloud
-Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Cloud própria
-Descrição: Ferramenta de base de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Microsoft Power BI
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Qlik View/Qlik Sense
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Tableau
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Metabase
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Superset
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Redash
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Looker
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Looker Studio (Google Data Studio)
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Amazon Quicksight
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Mode
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Alteryx
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	MicroStrategy
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	IBM Analytics/Cognos
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	SAP Business Objects/SAP Analytics
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Oracle Business Intelligence
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Salesforce/Einstein Analytics
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Birst
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	SAS Visual Analytics
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Grafana
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	TIBCO Spotfire
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Pentaho
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Fazemos todas as análises utilizando apenas Excel ou planilhas do google
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
-
-	Não utilizo nenhuma ferramenta de BI no trabalho
-Descrição: Ferramenta de análise de dados (1 verdadeiro ou 0 falso)
-
-Tipo de Dado: Qualitativo - Nominal - Binário
+# Dicionário de Dados
+
+| Variável                                | Descrição                                                                | Tipo de Dado                           |
+|-----------------------------------------|--------------------------------------------------------------------------|----------------------------------------|
+| Salario Médio                           | Média da faixa salarial mensal                                           | Quantitativo - Contínuo                |
+| Nível                                   | Nível de carreira (experiência, autonomia, responsabilidades)            | Qualitativo - Ordinal                  |
+| Número de Funcionários da Empresa       | Faixa do número de funcionários da empresa                               | Qualitativo - Ordinal                  |
+| Situação Atual de Trabalho              | Tipo de vínculo empregatício                                             | Qualitativo - Nominal - Multivariado   |
+| Área de Formação                        | Área acadêmica do profissional                                           | Qualitativo - Nominal - Multivariado   |
+| Estado de Origem                        | Estado originário do profissional                                        | Qualitativo - Nominal - Multivariado   |
+| Mudou de Estado                         | Se mudou de estado                                                       | Qualitativo - Nominal - Binário        |
+| PCD (Pessoa Com Deficiência)            | Se possui alguma deficiência                                             | Qualitativo - Nominal - Binário        |
+| Estado onde Mora                        | Estado de residência atual                                               | Qualitativo - Nominal - Multivariado   |
+| UF onde Mora                            | Unidade Federativa da residência atual                                   | Qualitativo - Nominal - Multivariado   |
+| Região onde Mora                        | Região do Brasil onde reside                                             | Qualitativo - Nominal - Multivariado   |
+| Idade                                   | Idade em anos                                                            | Quantitativo - Discreto                |
+| Faixa de Idade                          | Faixa etária (ex: 22-24, 30-34)                                          | Qualitativo - Ordinal                  |
+| Gênero                                  | Gênero (Masculino, Feminino, etc.)                                       | Qualitativo - Nominal - Binário        |
+| Etnia/Cor/Raça                          | Etnia, cor ou raça do profissional                                       | Qualitativo - Nominal - Multivalorado  |
+| Nível de Ensino                         | Nível de escolaridade                                                    | Qualitativo - Ordinal                  |
+| Faixa Salarial Mensal                   | Intervalo de renda mensal                                                | Qualitativo - Ordinal                  |
+| Experiência Profissional em Dados       | Tempo de experiência em dados                                            | Qualitativo - Ordinal                  |
+| Cargo Atual                             | Cargo ocupado atualmente                                                 | Qualitativo - Nominal - Multivariado   |
+| Tamanho da Empresa                      | Porte da empresa                                                         | Qualitativo - Ordinal                  |
+| Modelo de Trabalho                      | Regime de trabalho                                                       | Qualitativo - Nominal - Multivariado   |
+| Setor da Empresa                        | Setor de atuação                                                         | Qualitativo - Nominal - Multivariado   |
+| IDHM                                    | Índice de Desenvolvimento Humano Municipal                               | Quantitativo - Contínuo                |
+| PIB                                     | Produto Interno Bruto                                                    | Quantitativo - Contínuo                |
+
+## Cargos (Binários)
+
+| Variável                                | Descrição                              | Tipo de Dado                        |
+|-----------------------------------------|----------------------------------------|-------------------------------------|
+| Analytics_Engineer                      | Cargo                                  | Qualitativo - Nominal - Binário    |
+| Data_Engineer                           | Cargo                                  | Qualitativo - Nominal - Binário    |
+| Data_Analyst                            | Cargo                                  | Qualitativo - Nominal - Binário    |
+| Data_Scientist                          | Cargo                                  | Qualitativo - Nominal - Binário    |
+| Database_Administrator                  | Cargo                                  | Qualitativo - Nominal - Binário    |
+| Analista_de_Bussiness_Intelligence      | Cargo                                  | Qualitativo - Nominal - Binário    |
+| Data_Architect                          | Cargo                                  | Qualitativo - Nominal - Binário    |
+| Data_Product_Manager                    | Cargo                                  | Qualitativo - Nominal - Binário    |
+| Business_Analyst                        | Cargo                                  | Qualitativo - Nominal - Binário    |
+
+## Linguagens de Programação (Binários)
+
+| Variável                                | Tipo de Dado                        |
+|-----------------------------------------|-------------------------------------|
+| SQL                                     | Qualitativo - Nominal - Binário    |
+| R                                       | Qualitativo - Nominal - Binário    |
+| Python                                  | Qualitativo - Nominal - Binário    |
+| C/C++/C#                                | Qualitativo - Nominal - Binário    |
+| .NET                                    | Qualitativo - Nominal - Binário    |
+| Java                                    | Qualitativo - Nominal - Binário    |
+| Julia                                   | Qualitativo - Nominal - Binário    |
+| SAS                                     | Qualitativo - Nominal - Binário    |
+| Visual Basic                            | Qualitativo - Nominal - Binário    |
+| Scala                                   | Qualitativo - Nominal - Binário    |
+| MATLAB                                  | Qualitativo - Nominal - Binário    |
+| Rust                                    | Qualitativo - Nominal - Binário    |
+| PHP                                     | Qualitativo - Nominal - Binário    |
+| JavaScript                              | Qualitativo - Nominal - Binário    |
+| Não utilizo nenhuma linguagem           | Qualitativo - Nominal - Binário    |
+
+## Ferramentas - Nuvem e Armazenamento (Binários)
+
+| Variável                                | Tipo de Dado                        |
+|-----------------------------------------|-------------------------------------|
+| Azure (Microsoft)                       | Qualitativo - Nominal - Binário    |
+| Amazon Web Services                     | Qualitativo - Nominal - Binário    |
+| Google Cloud (GCP)                      | Qualitativo - Nominal - Binário    |
+| Oracle Cloud                            | Qualitativo - Nominal - Binário    |
+| IBM                                     | Qualitativo - Nominal - Binário    |
+| Servidores On Premise                   | Qualitativo - Nominal - Binário    |
+| Cloud própria                           | Qualitativo - Nominal - Binário    |
+
+## Ferramentas de BI (Binários)
+
+| Variável                                | Tipo de Dado                        |
+|-----------------------------------------|-------------------------------------|
+| Microsoft Power BI                      | Qualitativo - Nominal - Binário    |
+| Qlik View/Qlik Sense                    | Qualitativo - Nominal - Binário    |
+| Tableau                                 | Qualitativo - Nominal - Binário    |
+| Metabase                                | Qualitativo - Nominal - Binário    |
+| Superset                                | Qualitativo - Nominal - Binário    |
+| Redash                                  | Qualitativo - Nominal - Binário    |
+| Looker                                  | Qualitativo - Nominal - Binário    |
+| Looker Studio (Google Data Studio)      | Qualitativo - Nominal - Binário    |
+| Amazon Quicksight                       | Qualitativo - Nominal - Binário    |
+| Mode                                    | Qualitativo - Nominal - Binário    |
+| Alteryx                                 | Qualitativo - Nominal - Binário    |
+| MicroStrategy                           | Qualitativo - Nominal - Binário    |
+| IBM Analytics/Cognos                    | Qualitativo - Nominal - Binário    |
+| SAP Business Objects/SAP Analytics      | Qualitativo - Nominal - Binário    |
+| Oracle Business Intelligence            | Qualitativo - Nominal - Binário    |
+| Salesforce/Einstein Analytics           | Qualitativo - Nominal - Binário    |
+| Birst                                   | Qualitativo - Nominal - Binário    |
+| SAS Visual Analytics                    | Qualitativo - Nominal - Binário    |
+| Grafana                                 | Qualitativo - Nominal - Binário    |
+| TIBCO Spotfire                          | Qualitativo - Nominal - Binário    |
+| Pentaho                                 | Qualitativo - Nominal - Binário    |
+| Fazemos todas as análises em planilhas  | Qualitativo - Nominal - Binário    |
+| Não utilizo nenhuma ferramenta de BI    | Qualitativo - Nominal - Binário    |
 
 ###    Descrição de dados :bar_chart:
 
