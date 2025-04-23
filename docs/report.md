@@ -416,10 +416,10 @@ Na Tabela IDH 2021 serão utilizados os seguintes atributos:
 
 ### Seleção dos atributos
 
-As três tabelas foram unidas pela coluna Uf, coluna que é comum nas 3 bases de dados. 
-As colunas foram renomeadas para melhor entendimento.
-A nova tabela resultante da união e seleção de atributos possui 93 colunas e 5293 linhas
-Os atributos que serão ulizados serão os seguintes:
+#### As três tabelas foram unidas pela coluna Uf, coluna que é comum nas 3 bases de dados. 
+#### As colunas foram renomeadas para melhor entendimento.
+#### A nova tabela resultante da união e seleção de atributos possui 93 colunas e 5293 linhas
+#### Os atributos que serão ulizados serão os seguintes:
 
 | Dado | Tipo de dado | Descrição |
 |------|--------------|-----------|
