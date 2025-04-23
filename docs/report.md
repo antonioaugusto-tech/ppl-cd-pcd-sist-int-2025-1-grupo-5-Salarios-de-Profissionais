@@ -100,19 +100,19 @@ A aplicação será utilizada por diferentes perfis de usuários que buscam comp
 A base de dados State of Data Brazil 2023 é rica em informações sobre profissionais no setor de dados no Brasil, abordando tanto características demográficas quanto aspectos profissionais e de experiência no mercado de trabalho.
  
 # Dicionário de Dados| Dado | Tipo de dado | Descrição |
-|------|--------------|-----------|
-| Idade | Quantitativo discreto | Idade do profissional em anos (valores inteiros) |
-| Faixa de idade | Qualitativo ordinal | Categorias de faixa etária (ex: 20-30 anos) |
-| Genero | Qualitativo nominal | Identificação de gênero (masculino, feminino, outros) |
-| Cor/Raça/Etnia | Qualitativo nominal | Classificação étnico-racial (ex: branca, preta, parda) |
-| PDC | Qualitativo Categórico Binário | Pessoa com Deficiência "Sim"/"Não" |
-| Estado_onde_mora | Qualitativo nominal | Nome completo do estado de residência |
-| Uf | Qualitativo nominal | Sigla da Unidade Federativa de residência |
-| Regiao_onde_mora | Qualitativo nominal | Região do Brasil (Norte, Nordeste, etc.) |
-| Mudou_de_estado | Quantitativo discreto | Indicador binário de mudança de estado (0=Não, 1=Sim) |
-| Regiao_de_Origem | Qualitativo nominal | Região de origem do profissional |
-| Nivel_de_Ensino | Qualitativo ordinal | Escolaridade ordenada (ex: Fundamental, Médio, Superior) |
-| Area_de_Formacao | Qualitativo nominal | Área de formação acadêmica |
+|--------------------|------|--------------|-----------|
+| Idade              | Quantitativo discreto | Idade do profissional em anos (valores inteiros) |
+| Faixa de idade     | Qualitativo ordinal | Categorias de faixa etária (ex: 20-30 anos) |
+| Genero             | Qualitativo nominal | Identificação de gênero (masculino, feminino, outros) |
+| Cor/Raça/Etnia     | Qualitativo nominal | Classificação étnico-racial (ex: branca, preta, parda) |
+| PDC                | Qualitativo Categórico Binário | Pessoa com Deficiência "Sim"/"Não" |
+| Estado_onde_mora   | Qualitativo nominal | Nome completo do estado de residência |
+| Uf                 | Qualitativo nominal | Sigla da Unidade Federativa de residência |
+| Regiao_onde_mora   | Qualitativo nominal | Região do Brasil (Norte, Nordeste, etc.) |
+| Mudou_de_estado    | Quantitativo discreto | Indicador binário de mudança de estado (0=Não, 1=Sim) |
+| Regiao_de_Origem   | Qualitativo nominal | Região de origem do profissional |
+| Nivel_de_Ensino    | Qualitativo ordinal | Escolaridade ordenada (ex: Fundamental, Médio, Superior) |
+| Area_de_Formacao   | Qualitativo nominal | Área de formação acadêmica |
 | Situacao_atual_de_trabalho | Qualitativo nominal | Situação profissional atual (empregado, desempregado, etc.) |
 | Setor | Qualitativo nominal | Setor de atuação da empresa (público, privado, etc.) |
 | Num_func_empresa_que_trabalha | Qualitativo ordinal | Porte da empresa por número de funcionários |
