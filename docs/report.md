@@ -99,109 +99,115 @@ A aplicação será utilizada por diferentes perfis de usuários que buscam comp
 **State of Data Brazil 2023**
 A base de dados State of Data Brazil 2023 é rica em informações sobre profissionais no setor de dados no Brasil, abordando tanto características demográficas quanto aspectos profissionais e de experiência no mercado de trabalho.
  
-# Dicionário de Dados
+# Dicionário de Dados| Dado | Tipo de dado | Descrição |
+|------|--------------|-----------|
+| Idade | Quantitativo discreto | Idade do profissional em anos (valores inteiros) |
+| Faixa de idade | Qualitativo ordinal | Categorias de faixa etária (ex: 20-30 anos) |
+| Genero | Qualitativo nominal | Identificação de gênero (masculino, feminino, outros) |
+| Cor/Raça/Etnia | Qualitativo nominal | Classificação étnico-racial (ex: branca, preta, parda) |
+| PDC | Qualitativo Categórico Binário | Pessoa com Deficiência "Sim"/"Não" |
+| Estado_onde_mora | Qualitativo nominal | Nome completo do estado de residência |
+| Uf | Qualitativo nominal | Sigla da Unidade Federativa de residência |
+| Regiao_onde_mora | Qualitativo nominal | Região do Brasil (Norte, Nordeste, etc.) |
+| Mudou_de_estado | Quantitativo discreto | Indicador binário de mudança de estado (0=Não, 1=Sim) |
+| Regiao_de_Origem | Qualitativo nominal | Região de origem do profissional |
+| Nivel_de_Ensino | Qualitativo ordinal | Escolaridade ordenada (ex: Fundamental, Médio, Superior) |
+| Area_de_Formacao | Qualitativo nominal | Área de formação acadêmica |
+| Situacao_atual_de_trabalho | Qualitativo nominal | Situação profissional atual (empregado, desempregado, etc.) |
+| Setor | Qualitativo nominal | Setor de atuação da empresa (público, privado, etc.) |
+| Num_func_empresa_que_trabalha | Qualitativo ordinal | Porte da empresa por número de funcionários |
+| Cargo_Atual | Qualitativo nominal | Denominação do cargo atual |
+| Nível | Qualitativo ordinal | Nível hierárquico (Júnior, Pleno, Sênior) |
+| Faixa_Salarial | Qualitativo ordinal | Intervalos salariais em categorias |
+| Salario_Minimo | Quantitativo contínuo | Valor mínimo da faixa salarial em R$ |
+| Salario_Maximo | Quantitativo contínuo | Valor máximo da faixa salarial em R$ |
+| Salario_Medio | Quantitativo contínuo | Valor médio da faixa salarial em R$ |
+| Tempo_de_experiencia_na_area_de_dados | Qualitativo ordinal | Tempo de experiência em dados categorizado |
+| Atual_forma_de_trabalho | Qualitativo nominal | Modalidade de trabalho (presencial, híbrido, remoto) |
+| Papeis/cargos_do_time/chapter_de_dados | Qualitativo nominal | Funções específicas em times de dados |
+| Analytics_Engineer | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário para o cargo (0=Não, 1=Sim) |
+| Engenharia_de_Dados/Data_Engineer | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário para o cargo (0=Não, 1=Sim) |
+| Analista_de_Dados/Data_Analyst | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário para o cargo (0=Não, 1=Sim) |
+| Cientista_de_Dados/Data_Scientist | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário para o cargo (0=Não, 1=Sim) |
+| Database_Administrator/DBA | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário para o cargo (0=Não, 1=Sim) |
+| Analista_de_Business_Intelligence/BI | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário para o cargo (0=Não, 1=Sim) |
+| Arquiteto_de_Dados/Data_Architect | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário para o cargo (0=Não, 1=Sim) |
+| Data_Product_Manager/DPM | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário para o cargo (0=Não, 1=Sim) |
+| Business_Analyst | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário para o cargo (0=Não, 1=Sim) |
+| SQL | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| R | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| Python | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| C/C++/C# | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| NET | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| Java | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| Julia | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| SAS/Stata | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| Visual Basic/VBA | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| Scala | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| Matlab | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| Rust | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| PHP | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| JavaScript | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de conhecimento da linguagem (0=Não, 1=Sim) |
+| Não utilizo nenhuma linguagem | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário (0=Não, 1=Sim) |
+| Azure (Microsoft) | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de uso da plataforma (0=Não, 1=Sim) |
+| Amazon Web Services (AWS) | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de uso da plataforma (0=Não, 1=Sim) |
+| Google Cloud (GCP) | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de uso da plataforma (0=Não, 1=Sim) |
+| Oracle Cloud | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de uso da plataforma (0=Não, 1=Sim) |
+| IBM | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário de uso da plataforma (0=Não, 1=Sim) |
+| Servidores On Premise/Não utilizamos Cloud | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário) | Indicador binário (0=Não, 1=Sim) |
+| Cloud Própria | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário (0=Não, 1=Sim) |
+| Microsoft PowerBI | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Qlik View/Qlik Sense | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Tableau | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Metabase | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Superset | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Redash | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Looker | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Looker Studio(Google Data Studio) | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Amazon Quicksight | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Mode | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Alteryx | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| MicroStrategy | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| IBM Analytics/Cognos | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| SAP Business Objects/SAP Analytics | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Oracle Business Intelligence | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Salesforce/Einstein Analytics | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Birst | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| SAS Visual Analytics | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Grafana | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| TIBCO Spotfire | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Pentaho | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário de uso da ferramenta (0=Não, 1=Sim) |
+| Fazemos todas as análises utilizando apenas Excel ou planilhas do google | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário (0=Não, 1=Sim) |
+| Não utilizo nenhuma ferramenta de BI no trabalho | Quantitativo discreto para fins de análise, mas pode ser considerado Qualitativo Categórico Binário | Indicador binário (0=Não, 1=Sim) |
 
-| Variável                                | Descrição                                                                | Tipo de Dado                           |
-|-----------------------------------------|--------------------------------------------------------------------------|----------------------------------------|
-| Salario Médio                           | Média da faixa salarial mensal                                           | Quantitativo - Contínuo                |
-| Nível                                   | Nível de carreira (experiência, autonomia, responsabilidades)            | Qualitativo - Ordinal                  |
-| Número de Funcionários da Empresa       | Faixa do número de funcionários da empresa                               | Qualitativo - Ordinal                  |
-| Situação Atual de Trabalho              | Tipo de vínculo empregatício                                             | Qualitativo - Nominal - Multivariado   |
-| Área de Formação                        | Área acadêmica do profissional                                           | Qualitativo - Nominal - Multivariado   |
-| Estado de Origem                        | Estado originário do profissional                                        | Qualitativo - Nominal - Multivariado   |
-| Mudou de Estado                         | Se mudou de estado                                                       | Qualitativo - Nominal - Binário        |
-| PCD (Pessoa Com Deficiência)            | Se possui alguma deficiência                                             | Qualitativo - Nominal - Binário        |
-| Estado onde Mora                        | Estado de residência atual                                               | Qualitativo - Nominal - Multivariado   |
-| UF onde Mora                            | Unidade Federativa da residência atual                                   | Qualitativo - Nominal - Multivariado   |
-| Região onde Mora                        | Região do Brasil onde reside                                             | Qualitativo - Nominal - Multivariado   |
-| Idade                                   | Idade em anos                                                            | Quantitativo - Discreto                |
-| Faixa de Idade                          | Faixa etária (ex: 22-24, 30-34)                                          | Qualitativo - Ordinal                  |
-| Gênero                                  | Gênero (Masculino, Feminino, etc.)                                       | Qualitativo - Nominal - Binário        |
-| Etnia/Cor/Raça                          | Etnia, cor ou raça do profissional                                       | Qualitativo - Nominal - Multivalorado  |
-| Nível de Ensino                         | Nível de escolaridade                                                    | Qualitativo - Ordinal                  |
-| Faixa Salarial Mensal                   | Intervalo de renda mensal                                                | Qualitativo - Ordinal                  |
-| Experiência Profissional em Dados       | Tempo de experiência em dados                                            | Qualitativo - Ordinal                  |
-| Cargo Atual                             | Cargo ocupado atualmente                                                 | Qualitativo - Nominal - Multivariado   |
-| Tamanho da Empresa                      | Porte da empresa                                                         | Qualitativo - Ordinal                  |
-| Modelo de Trabalho                      | Regime de trabalho                                                       | Qualitativo - Nominal - Multivariado   |
-| Setor da Empresa                        | Setor de atuação                                                         | Qualitativo - Nominal - Multivariado   |
-| IDHM                                    | Índice de Desenvolvimento Humano Municipal                               | Quantitativo - Contínuo                |
-| PIB                                     | Produto Interno Bruto                                                    | Quantitativo - Contínuo                |
 
-## Cargos (Binários)
 
-| Variável                                | Descrição                              | Tipo de Dado                        |
-|-----------------------------------------|----------------------------------------|-------------------------------------|
-| Analytics_Engineer                      | Cargo                                  | Qualitativo - Nominal - Binário    |
-| Data_Engineer                           | Cargo                                  | Qualitativo - Nominal - Binário    |
-| Data_Analyst                            | Cargo                                  | Qualitativo - Nominal - Binário    |
-| Data_Scientist                          | Cargo                                  | Qualitativo - Nominal - Binário    |
-| Database_Administrator                  | Cargo                                  | Qualitativo - Nominal - Binário    |
-| Analista_de_Bussiness_Intelligence      | Cargo                                  | Qualitativo - Nominal - Binário    |
-| Data_Architect                          | Cargo                                  | Qualitativo - Nominal - Binário    |
-| Data_Product_Manager                    | Cargo                                  | Qualitativo - Nominal - Binário    |
-| Business_Analyst                        | Cargo                                  | Qualitativo - Nominal - Binário    |
+Tabela Pib 2021
 
-## Linguagens de Programação (Binários)
+| Dado | Tipo de Dado | Descrição |
+|:-----|:------------|:----------|
+| UF | Qualitativo Nominal | Sigla da Unidade da Federação (estados brasileiros e Distrito Federal) - dados não numéricos sem ordem intrínseca |
+| PIB_2021_OR | Quantitativo Contínuo | Valor do Produto Interno Bruto em 2021, em milhões de reais (admite valores intermediários, apesar de estar representado como inteiro) |
+| Partic_Pib_Brasil | Quantitativo Contínuo | Participação percentual do estado no PIB nacional (valores decimais entre 0 e 1) |
 
-| Variável                                | Tipo de Dado                        |
-|-----------------------------------------|-------------------------------------|
-| SQL                                     | Qualitativo - Nominal - Binário    |
-| R                                       | Qualitativo - Nominal - Binário    |
-| Python                                  | Qualitativo - Nominal - Binário    |
-| C/C++/C#                                | Qualitativo - Nominal - Binário    |
-| .NET                                    | Qualitativo - Nominal - Binário    |
-| Java                                    | Qualitativo - Nominal - Binário    |
-| Julia                                   | Qualitativo - Nominal - Binário    |
-| SAS                                     | Qualitativo - Nominal - Binário    |
-| Visual Basic                            | Qualitativo - Nominal - Binário    |
-| Scala                                   | Qualitativo - Nominal - Binário    |
-| MATLAB                                  | Qualitativo - Nominal - Binário    |
-| Rust                                    | Qualitativo - Nominal - Binário    |
-| PHP                                     | Qualitativo - Nominal - Binário    |
-| JavaScript                              | Qualitativo - Nominal - Binário    |
-| Não utilizo nenhuma linguagem           | Qualitativo - Nominal - Binário    |
+Tabela IDHM 2021
 
-## Ferramentas - Nuvem e Armazenamento (Binários)
-
-| Variável                                | Tipo de Dado                        |
-|-----------------------------------------|-------------------------------------|
-| Azure (Microsoft)                       | Qualitativo - Nominal - Binário    |
-| Amazon Web Services                     | Qualitativo - Nominal - Binário    |
-| Google Cloud (GCP)                      | Qualitativo - Nominal - Binário    |
-| Oracle Cloud                            | Qualitativo - Nominal - Binário    |
-| IBM                                     | Qualitativo - Nominal - Binário    |
-| Servidores On Premise                   | Qualitativo - Nominal - Binário    |
-| Cloud própria                           | Qualitativo - Nominal - Binário    |
-
-## Ferramentas de BI (Binários)
-
-| Variável                                | Tipo de Dado                        |
-|-----------------------------------------|-------------------------------------|
-| Microsoft Power BI                      | Qualitativo - Nominal - Binário    |
-| Qlik View/Qlik Sense                    | Qualitativo - Nominal - Binário    |
-| Tableau                                 | Qualitativo - Nominal - Binário    |
-| Metabase                                | Qualitativo - Nominal - Binário    |
-| Superset                                | Qualitativo - Nominal - Binário    |
-| Redash                                  | Qualitativo - Nominal - Binário    |
-| Looker                                  | Qualitativo - Nominal - Binário    |
-| Looker Studio (Google Data Studio)      | Qualitativo - Nominal - Binário    |
-| Amazon Quicksight                       | Qualitativo - Nominal - Binário    |
-| Mode                                    | Qualitativo - Nominal - Binário    |
-| Alteryx                                 | Qualitativo - Nominal - Binário    |
-| MicroStrategy                           | Qualitativo - Nominal - Binário    |
-| IBM Analytics/Cognos                    | Qualitativo - Nominal - Binário    |
-| SAP Business Objects/SAP Analytics      | Qualitativo - Nominal - Binário    |
-| Oracle Business Intelligence            | Qualitativo - Nominal - Binário    |
-| Salesforce/Einstein Analytics           | Qualitativo - Nominal - Binário    |
-| Birst                                   | Qualitativo - Nominal - Binário    |
-| SAS Visual Analytics                    | Qualitativo - Nominal - Binário    |
-| Grafana                                 | Qualitativo - Nominal - Binário    |
-| TIBCO Spotfire                          | Qualitativo - Nominal - Binário    |
-| Pentaho                                 | Qualitativo - Nominal - Binário    |
-| Fazemos todas as análises em planilhas  | Qualitativo - Nominal - Binário    |
-| Não utilizo nenhuma ferramenta de BI    | Qualitativo - Nominal - Binário    |
-
+| Dado | Tipo de Dado | Descrição |
+|:-----|:------------|:----------|
+| Ano | Quantitativo Discreto | Ano de referência dos dados (valores inteiros específicos) |
+| Uf | Qualitativo Nominal | Sigla da Unidade da Federação (categorias sem ordem intrínseca) |
+| Nome_Estado | Qualitativo Nominal | Nome completo do estado brasileiro ou DF |
+| IDHM | Quantitativo Contínuo | Índice de Desenvolvimento Humano Municipal (escala 0-1) |
+| IDHM_L | Quantitativo Contínuo | Dimensão Longevidade do IDHM (escala 0-1) |
+| IDHM_E | Quantitativo Contínuo | Dimensão Educação do IDHM (escala 0-1) |
+| IDHM_R | Quantitativo Contínuo | Dimensão Renda do IDHM (escala 0-1) |
+| IDHMAD | Quantitativo Contínuo | IDHM Ajustado à Desigualdade (escala 0-1) |
+| IDHMAD_L | Quantitativo Contínuo | Dimensão Longevidade do IDHMAD (escala 0-1) |
+| IDHMAD_E | Quantitativo Contínuo | Dimensão Educação do IDHMAD (escala 0-1) |
+| IDHMAD_R | Quantitativo Contínuo | Dimensão Renda do IDHMAD (escala 0-1) |
+| RDPC | Quantitativo Contínuo | Renda Domiciliar per Capita (em R$) |
+| GINI | Quantitativo Contínuo | Índice de Gini (medida de desigualdade 0-1) |
+| THEIL | Quantitativo Contínuo | Índice de Theil (medida de desigualdade ≥0) |
 ###    Descrição de dados :bar_chart:
 
 ## State of Data
