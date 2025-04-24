@@ -227,9 +227,10 @@ Tabela IDHM 2021
 | RDPC | Quantitativo Contínuo | Renda Domiciliar per Capita (em R$) |
 | GINI | Quantitativo Contínuo | Índice de Gini (medida de desigualdade 0-1) |
 | THEIL | Quantitativo Contínuo | Índice de Theil (medida de desigualdade ≥0) |
-###    Descrição de dados :bar_chart:
 
-## State of Data
+##    Descrição de dados :bar_chart:
+
+### State of Data
 
 A base de dados **State of Data Brazil 2023** retrata o perfil dos profissionais de dados no Brasil, abordando aspectos como formação acadêmica, experiência profissional, faixa salarial, ferramentas utilizadas e desafios enfrentados no setor.
 
