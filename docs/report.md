@@ -569,9 +569,9 @@ Dados únicos: 14000.5,  7000.5,     nan,  5000.5, 10000.5, 22500.5,  1500.5, 35
 Com isso, foi possível comparar qual linguagem está sendo utilizada nos maiores salários, fazendo uma comparação inicial entre Python x R. Foi plotado assim dois gráficos, um corresponde a média salarial por habilidade, contemplando R, Python ou outra. E, por fim, um gráfico de quantidade de profissionais por salário médio que utilizam as linguagens.
 
 
-<img src="imagens/media_salarial_por_habilidade">
+<img src="imagens/media_salarial_por_habilidade.png">
 
-<img src="quantidade_profissionais_salario_python_r">
+<img src="quantidade_profissionais_salario_python_r.png">
 
 Podendo levantar algumas conclusões:
 1. Há uma baixa adesão das duas linguagens de programação entre os salários médio de 1050,00 a 2500,50 reais;
