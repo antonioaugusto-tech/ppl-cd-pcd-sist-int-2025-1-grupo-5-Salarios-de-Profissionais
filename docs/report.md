@@ -514,7 +514,7 @@ Para os casos em que essa variável estava ausente, foi realizada a imputação 
 
 ### 2. Hipótese do Estudo
 Hipótese:
-O salário médio de profissionais da área de dados é influenciado por fatores como o porte da empresa, o setor de atuação, o cargo atual, o nível de ensino e o tempo de experiência na área (Os valores finais do resusltado dos modelos tiveram a adição de "Genero" e "Cor/Raça/Etnia" como variáveis, e demonstraram mior precisão devido a isso).
+O salário médio de profissionais da área de dados é influenciado por fatores como o porte da empresa, o setor de atuação, o cargo atual, o nível de ensino e o tempo de experiência na área (Os valores finais do resusltado dos modelos tiveram a adição de "Genero", "Cor/Raça/Etnia", "Nível" e "Nível_de_Ensino" como variáveis, e demonstraram maior precisão devido a isso).
 
 ### 3. Transformações e Pré-processamento dos Dados
 Processo Realizado:
