@@ -502,6 +502,64 @@ c) **Variáveis de Controle**
 **Princípios Orientadores:**  
 ✓ Interpretabilidade ✓ Preservação estatística ✓ Facilitar análise causal
 
+1. Tratamento de Valores Ausentes
+Objetivo:
+Assegurar a qualidade e consistência dos dados, eliminando registros incompletos ou realizando o tratamento adequado para permitir a modelagem preditiva sem viés ou perda de performance.
+
+Processo Realizado:
+
+Preenchimento de valores ausentes na variável ‘Tempo_de_experiencia_na_area_de_dados’:
+Para os casos em que essa variável estava ausente, foi realizada a imputação com a moda da variável — “de 1 a 2 anos” — com o objetivo de manter a consistência sem gerar distorções significativas nos resultados. Essa abordagem se justifica pela predominância desse valor na amostra.
+
+2. Hipótese do Estudo
+Hipótese:
+O salário médio de profissionais da área de dados é influenciado por fatores como o porte da empresa, o setor de atuação, o cargo atual, o nível de ensino e o tempo de experiência na área (Os valores finais do resusltado dos modelos tiveram a adição de "Genero" e "Cor/Raça/Etnia" como variáveis, e demonstraram mior precisão devido a isso).
+
+3. Transformações e Pré-processamento dos Dados
+Processo Realizado:
+
+Mapeamento de categorias para valores numéricos:
+As categorias de número de funcionários na empresa e tempo de experiência foram convertidas para valores médios representativos, permitindo sua utilização em modelos de regressão.
+
+Conversão para valores numéricos e remoção de inconsistências:
+Foi realizada a conversão dos campos categóricos mapeados para valores numéricos, sendo removidos os registros que ainda apresentavam erros ou valores ausentes após a transformação.
+
+Codificação de variáveis categóricas (One-hot Encoding):
+As variáveis categóricas restantes foram transformadas em variáveis binárias por meio do método de one-hot encoding, evitando ordenações implícitas e viabilizando o uso em modelos estatísticos.
+
+4. Modelagem Preditiva
+Modelos Utilizados:
+
+Regressão Linear
+
+Erro Absoluto Médio (MAE): 2.605,37
+
+Coeficiente de Determinação (R²): 0,528
+
+XGBoost Regressor
+
+Erro Absoluto Médio (MAE): 2.766,00
+
+Coeficiente de Determinação (R²): 0,478
+
+Interpretação dos Resultados:
+Os dois modelos apresentaram desempenhos comparáveis, com ligeira vantagem para a regressão linear em termos de erro médio e explicação da variância do salário. O valor de R² indica que aproximadamente 50% da variação nos salários pode ser explicada pelas variáveis incluídas no modelo, o que demonstra uma relação moderada.
+
+A performance do modelo XGBoost, embora inferior, pode estar relacionada à ausência de ajustes finos em seus hiperparâmetros, ou ainda à predominância de relações lineares entre as variáveis.
+
+5. Considerações Finais
+Os resultados obtidos sugerem que a hipótese é parcialmente confirmada. Variáveis como setor de atuação, porte da empresa, nível de ensino, cargo atual e tempo de experiência apresentam influência sobre a variável resposta (salário médio). No entanto, o modelo também indica que existem outros fatores não considerados neste estudo que podem impactar significativamente o salário dos profissionais da área de dados.
+
+Próximos passos :
+
+Incluir variáveis geográficas e socioeconômicas (PIB, IDHM, custo de vida). (Não houve essa adição, pois há outra hipótese que foca na influência de tais variáveis)
+
+Analisar interações entre variáveis (ex.: setor * cargo).
+
+Ajustar hiperparâmetros de modelos não-lineares como o XGBoost.
+
+Testar modelos adicionais com maior capacidade de generalização.
+
 ## [Preparação dos Dados] Hipótese 3
 
 Inicialmente, para a preparação de dados para a Hipótese foi necessário determinar alguns pontos a respeito de um atributo criado anteriormente 'Salario_Medio'. Como visualizar, quais são seus valores únicos e a quantidade de respostas por valor. Os resultados respectivamente foram: 
