@@ -446,169 +446,61 @@ Na Tabela IDH 2021 serão utilizados os seguintes atributos:
 #### As colunas foram renomeadas para melhor entendimento.
 #### A nova tabela resultante da união e seleção de atributos possui 93 colunas e 5293 linhas
 
-### [Preparação dos Dados] Hipótese 1: Existe uma correlação entra o valor do salário com o PIB e o IHD do estado que o profissional trabalha?
+## [Preparação dos Dados] Hipótese 1: Correlação entre salário, PIB e IDHM
 
 ### 1. Tratamento de Valores Ausentes
-
-### Objetivo:
-Garantir a qualidade dos dados removendo ou tratando registros incompletos que poderiam enviesar os resultados.
-
-### Processo Realizado:
-
-### Remoção de linhas críticas sem PIB ou IDHM
-
-```python
-df_v1 = df_v1.dropna(subset=['PIB_2021_OR', 'IDHM'])
-```
-
-### Preenchimento de experiência desconhecida
-
-```python
-df_v1['Tempo_de_experiencia_na_area_de_dados'] = df_v1[
-    'Tempo_de_experiencia_na_area_de_dados'
-].fillna('de 1 a 2 anos')
-```
-
-**Por que cada decisão:**
-
-* **Remoção de PIB/IDHM ausentes:**
-    * Essas são variáveis centrais da análise.
-    * Não faz sentido imputar valores para dados macroeconômicos.
-* **Preenchimento da experiência:**
-    * Utilizamos a moda ("1 a 2 anos") porque:
-        * É a categoria mais frequente.
-        * Representa um ponto médio razoável.
-        * Minimiza a distorção da distribuição original.
-
-
-### 2. Transformação de Variáveis
-
-**Objetivo:**
-
-Preparar os dados para análise estatística, garantindo que:
-* Distribuições assimétricas sejam normalizadas.
-* Variáveis categóricas sejam convertidas em formato numérico.
-* Escalas diferentes não dominem o modelo.
+**Objetivo:**  
+Garantir qualidade dos dados removendo/tratando registros incompletos.
 
 **Processo Realizado:**
+- Remoção de registros sem PIB ou IDHM (variáveis centrais)
+- Preenchimento de experiência desconhecida com moda ("1 a 2 anos")
 
-### a) Transformação Logarítmica do Salário
+**Lógica das Decisões:**
+- Dados macroeconômicos (PIB/IDHM) não podem ser imputados
+- Experiência preenchida com valor mais frequente para minimizar distorções
 
-```Python 
-df_v1['log_salario'] = np.log1p(df_v1['Salario_Medio'])
-```
-
-**Motivação:**
-
-* Salários geralmente têm distribuição assimétrica à direita.
-* Log-transform:
-    * Reduz o efeito de outliers.
-    * Torna a relação mais linear com outras variáveis.
-    * Melhora a performance de modelos lineares.
-
-### b) One-Hot Encoding
-
-```Python
-df_v1 = pd.get_dummies(df_v1, columns=[
-    'Nivel',
-    'Tempo_de_experiencia_na_area_de_dados'
-], drop_first=True)
-```
-
-**Por que usar:**
-
-- Converte categorias em colunas binárias (0/1)
-- `drop_first=True` evita multicolinearidade
-
-**Exemplo transformado:**
-
-- Coluna original "Nivel": `["Júnior", "Pleno", "Sênior"]`
-- Vira duas colunas: `"Nivel_Pleno"`, `"Nivel_Sênior"` *(Júnior é a referência)*
-
-### c) Normalização de PIB e IDHM
-
-```Python
-from sklearn.preprocessing import StandardScaler
-
-scaler = StandardScaler()
-df_v1[['PIB_2021_OR_scaled', 'IDHM_scaled']] = scaler.fit_transform(
-    df_v1[['PIB_2021_OR', 'IDHM']]
-)
-```
-
-**Razão do Escalonamento:**
-
-- PIB e IDHM têm escalas completamente diferentes (ex: PIB em milhões vs IDHM 0-1)
-- `StandardScaler` (Z-score) coloca ambas na mesma escala:
-  - Média = 0
-  - Desvio padrão = 1
-- Permite comparar coeficientes diretamente
-
-### 3. Engenharia de Features Adicionais
-
+### 2. Transformação de Variáveis
 **Objetivo:**  
-Criar novas variáveis que capturem relações complexas entre os dados.
+Preparar dados para análise estatística com distribuições adequadas.
 
-**Features Criadas:**  
-a) Interação PIB-IDHM
+**Principais Transformações:**
+a) **Logarítmica do Salário**  
+   - Motivo: Corrigir assimetria e reduzir impacto de outliers
+   - Benefícios: Relação mais linear com outras variáveis
 
-```Python
-df_v1['PIB_IDHM_interaction'] = df_v1['PIB_2021_OR'] * df_v1['IDHM']
+b) **One-Hot Encoding**  
+   - Categorias convertidas em colunas binárias (ex: Nível → Júnior/Pleno/Sênior)
+   - `drop_first=True` para evitar multicolinearidade
 
-**Lógica:**
-- Captura sinergia entre desenvolvimento econômico (PIB) e humano (IDHM)
-- Exemplo: Um estado com:
-  - Alto PIB + baixo IDHM → pode ter efeito diferente no salário
-  - vs. Alto PIB + alto IDHM
-```
+c) **Normalização (PIB e IDHM)**  
+   - Padronização para mesma escala (média=0, desvio=1)
+   - Permite comparação direta de coeficientes
 
-**b) Categorização por Região**
+### 3. Engenharia de Features
+**Objetivo:**  
+Criar variáveis que capturem relações complexas.
 
-```Python
-regioes = {
-    'Norte': ['AC', 'AM', 'AP', 'PA', 'RO', 'RR', 'TO'],
-    'Nordeste': ['AL', 'BA', 'CE', 'MA', 'PB', 'PE', 'PI', 'RN', 'SE'],
-    # ... outras regiões
-}
-df_v1['Regiao'] = df_v1['Uf'].map(
-    {uf: reg for reg, ufs in regioes.items() for uf in ufs}
-)
-```
+**Features Criadas:**
+a) **Interação PIB-IDHM**  
+   - Captura efeito combinado desenvolvimento econômico e humano
+   - Ex: Estados com alto PIB + baixo IDHM podem ter comportamento distinto
 
-### Vantagens:
-- **Agrupa estados** por características socioeconômicas similares
-- **Reduz ruído** em análises por estado individual
-- **Permite identificar** padrões regionais
+b) **Categorização por Região**  
+   - Agrupamento por similaridade socioeconômica
+   - Vantagens: Redução de ruído e identificação de padrões regionais
 
-### c) Variáveis de Controle Hierárquicas
+c) **Variáveis de Controle**  
+   - Dummies para experiência e senioridade
+   - Isolam efeito de PIB/IDHM controlando fatores individuais/organizacionais
 
-**Criamos dummies para:**
-- `Níveis de experiência` ("1-2 anos", "3-4 anos", etc.)
-- `Senioridade` (Júnior/Pleno/Sênior)
+### Fluxo Lógico
+1. **Tratamento de dados faltantes** → Base limpa
+2. **Transformação de variáveis** → Preparação para modelagem
+3. **Criação de novas features** → Aprimoramento explicativo
 
-**Por que são importantes:**
-> Isolam o efeito de PIB/IDHM controlando por:
-> - Características individuais _(experiência)_
-> - Fatores organizacionais _(nível hierárquico)_
-
----
-
-## Fluxo Lógico das Transformações
-
-1. **Tratamento de dados faltantes**  
-   → Evita propagação de problemas
-
-2. **Transformação de variáveis**  
-   → Prepara a base para modelagem
-
-3. **Criação de novas features**  
-   → Enriquece a capacidade explicativa
-
-**Cada etapa foi projetada para:**
-✓ Manter a interpretabilidade dos resultados  
-✓ Preservar relações estatísticas originais  
-✓ Facilitar a análise causal posterior
-
+**Princípios Orientadores:**  
+✓ Interpretabilidade ✓ Preservação estatística ✓ Facilitar análise causal
 
 ## [Preparação dos Dados] Hipótese 3
 
