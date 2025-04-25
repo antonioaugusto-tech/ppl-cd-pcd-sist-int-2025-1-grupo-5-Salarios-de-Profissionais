@@ -454,9 +454,12 @@ Na Tabela IDH 2021 serão utilizados os seguintes atributos:
 Garantir a qualidade dos dados removendo ou tratando registros incompletos que poderiam enviesar os resultados.
 
 ### Processo Realizado:
-```python
+
 # Remoção de linhas críticas sem PIB ou IDHM
+
+```python
 df_v1 = df_v1.dropna(subset=['PIB_2021_OR', 'IDHM'])
+```
 
 # Preenchimento de experiência desconhecida
 
