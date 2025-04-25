@@ -571,7 +571,7 @@ Com isso, foi possível comparar qual linguagem está sendo utilizada nos maiore
 
 <img src="imagens/media_salarial_por_habilidade.png">
 
-<img src="quantidade_profissionais_salario_python_r.png">
+<img src="imagens/quantidade_profissionais_salario_python_r.png">
 
 Podendo levantar algumas conclusões:
 1. Há uma baixa adesão das duas linguagens de programação entre os salários médio de 1050,00 a 2500,50 reais;
