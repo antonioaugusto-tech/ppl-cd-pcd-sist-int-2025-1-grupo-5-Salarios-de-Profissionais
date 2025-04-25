@@ -455,13 +455,13 @@ Garantir a qualidade dos dados removendo ou tratando registros incompletos que p
 
 ### Processo Realizado:
 
-# Remoção de linhas críticas sem PIB ou IDHM
+### Remoção de linhas críticas sem PIB ou IDHM
 
 ```python
 df_v1 = df_v1.dropna(subset=['PIB_2021_OR', 'IDHM'])
 ```
 
-# Preenchimento de experiência desconhecida
+### Preenchimento de experiência desconhecida
 
 ```python
 df_v1['Tempo_de_experiencia_na_area_de_dados'] = df_v1[
