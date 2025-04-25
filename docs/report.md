@@ -545,8 +545,34 @@ Na Tabela IDH 2021 serão utilizados os seguintes atributos:
 | GINI | Quantitativo Contínuo | Índice de Gini (medida de desigualdade 0-1) |
 | THEIL | Quantitativo Contínuo | Índice de Theil (medida de desigualdade ≥0) |
 
+## [Preparação dos Dados] Hipótese 3
 
+Inicialmente, para a preparação de dados para a Hipótese foi necessário determinar alguns pontos a respeito de um atributo criado anteriormente 'Salario_Medio'. Como visualizar, quais são seus valores únicos e a quantidade de respostas por valor. Os resultados respectivamente foram: 
 
+Dados únicos: 14000.5,  7000.5,     nan,  5000.5, 10000.5, 22500.5,  1500.5, 3500.5, 18000.5,  2500.5, 27500.5, 35000.5,  1050.5;
+
+| Salario_Medio | Quantidade |
+|---------------|-----------:|
+| 10000.50      |       1026 |
+| 5000.50       |        745 |
+| 14000.50      |        650 |
+| 7000.50       |        637 |
+| 3500.50       |        352 |
+| 18000.50      |        328 |
+| 2500.50       |        288 |
+| 1500.50       |        215 |
+| 22500.50      |        195 |
+| 27500.50      |        128 |
+| 35000.50      |         86 |
+| 1050.50       |          1 |
+
+Com isso, foi possível comparar qual linguagem está sendo utilizada nos maiores salários, fazendo uma comparação inicial entre Python x R. Foi plotado assim dois gráficos, um corresponde a média salarial por habilidade, contemplando R, Python ou outra. E, por fim, um gráfico de quantidade de profissionais por salário médio que utilizam as linguagens.
+
+Podendo levantar algumas conclusões:
+1. Há uma baixa adesão das duas linguagens de programação entre os salários médio de 1050,00 a 2500,50 reais;
+2. Dessa forma, é possível observar que na medida em que o salário médio vai aumentando, percebe-se que o número de pessoas que trabalham com linguagem de programação é maior, especialmente em faixas como 5000,00 a 7000,50 reais;
+3. A linguagem Python é mais comum que R entre as faixas salariais;
+4. Há a presença de profisisonais que trabalham com ambas linguagens em todas as faixas, entretanto, não parece ser algo muito comum.
 
 A preparação dos dados consiste dos seguintes passos:
 
