@@ -561,7 +561,7 @@ Ajustar hiperparâmetros de modelos não-lineares como o XGBoost.
 
 Testar modelos adicionais com maior capacidade de generalização.
 
-# Hipótese 5: Nível de formação acadêmica: Profissionais com pós-graduação, mestrado ou doutorado tendem a receber salários mais altos do que aqueles com apenas graduação.
+# Hipótese 5: Nível de formação acadêmica
 
 ### 1. Tratamento de Valores Ausentes
 Objetivo:
